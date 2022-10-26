@@ -58,7 +58,7 @@ def evaluate(opt):
 
     filenames = readlines("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/files.txt")
 
-    dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, opt.height, opt.width,
+    dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
                                [0, 1], 4, is_train=False)
     dataloader = DataLoader(dataset, 2, shuffle=False,
                             num_workers=2, pin_memory=True, drop_last=False)

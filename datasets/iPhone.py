@@ -20,13 +20,13 @@ class IPHONEDataset(MonoDataset):
         # by 1 / image_height. Monodepth2 assumes a principal point to be exactly centered.
         # If your principal point is far from the center you might need to disable the horizontal
         # flip augmentation.
-        """self.K = np.array([[0.58, 0, 0.5, 0],
+        self.K = np.array([[0.58, 0, 0.5, 0],
                            [0, 1.92, 0.5, 0],
                            [0, 0, 1, 0],
-                           [0, 0, 0, 1]], dtype=np.float32)"""
+                           [0, 0, 0, 1]], dtype=np.float32)
 
-        #self.full_res_shape = (1242, 375)
-        #self.side_map = {"2": 2, "3": 3, "l": 2, "r": 3}
+        self.full_res_shape = (1242, 375)
+        self.side_map = {"2": 2, "3": 3, "l": 2, "r": 3}
 
 
     def get_color(self, folder, frame_index, side, do_flip):
@@ -37,6 +37,8 @@ class IPHONEDataset(MonoDataset):
 
         return color
 
+    def check_depth(self):
+        return False
 
 class IPHONEOdomDataset(IPHONEDataset):
     """IPHONE dataset for odometry training and testing
@@ -45,9 +47,8 @@ class IPHONEOdomDataset(IPHONEDataset):
         super(IPHONEOdomDataset, self).__init__(*args, **kwargs)
 
     def get_image_path(self, folder, frame_index, side):
-        f_str = "{:04d}{}".format(frame_index, ".jpg")
+        f_str = "img{:04d}{}".format(frame_index+1, ".jpg")
         image_path = os.path.join(
             self.data_path,
-            "img",
             f_str)
         return image_path
