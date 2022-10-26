@@ -11,6 +11,7 @@ import numpy as np
 
 import torch
 from torch.utils.data import DataLoader
+from tqdm import tqdm
 
 from layers import transformation_from_parameters
 from utils import readlines, download_model_if_doesnt_exist
@@ -60,7 +61,7 @@ def evaluate(opt):
 
     dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
                                [0, 1], 4, is_train=False)
-    dataloader = DataLoader(dataset, 2, shuffle=False,
+    dataloader = DataLoader(dataset, 1, shuffle=False,
                             num_workers=2, pin_memory=True, drop_last=False)
 
 
@@ -82,20 +83,26 @@ def evaluate(opt):
 
     print("-> Computing pose predictions")
 
-    opt.frame_ids = [0, 1]  # pose network only takes two frames as input
+    for inputs in dataloader:
+        for key, ipt in inputs.items():
+            inputs[key] = ipt.cuda()
+        prev = inputs[("color_aug", 0, 0)]
+        break
 
     with torch.no_grad():
-        for inputs in dataloader:
+        for inputs in tqdm(dataloader):
             for key, ipt in inputs.items():
                 inputs[key] = ipt.cuda()
 
-            all_color_aug = torch.cat([inputs[("color_aug", i, 0)] for i in opt.frame_ids], 1)
+            pose_inputs = [prev, inputs[("color_aug", 0, 0)]]
+            all_color_aug = torch.cat(pose_inputs, 1)
 
             features = [pose_encoder(all_color_aug)]
             axisangle, translation = pose_decoder(features)
 
             pred_poses.append(
                 transformation_from_parameters(axisangle[:, 0], translation[:, 0]).cpu().numpy())
+            prev = inputs[("color_aug", 0, 0)]
 
     pred_poses = np.concatenate(pred_poses)
 
