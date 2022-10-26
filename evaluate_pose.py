@@ -13,7 +13,7 @@ import torch
 from torch.utils.data import DataLoader
 
 from layers import transformation_from_parameters
-from utils import readlines
+from utils import readlines, download_model_if_doesnt_exist
 from options import MonodepthOptions
 from datasets import IPHONEOdomDataset
 import networks
@@ -49,21 +49,23 @@ def compute_ate(gtruth_xyz, pred_xyz_o):
 def evaluate(opt):
     """Evaluate odometry on the KITTI dataset
     """
-    assert os.path.isdir(opt.load_weights_folder), \
-        "Cannot find a folder at {}".format(opt.load_weights_folder)
+    model_name = "mono+stereo_1024x320"
+    model_path = os.path.join("models", model_name)
+    download_model_if_doesnt_exist(model_name)
 
-    assert opt.eval_split == "odom_9" or opt.eval_split == "odom_10", \
-        "eval_split should be either odom_9 or odom_10"
+    assert os.path.isdir(model_path), \
+        "Cannot find a folder at {}".format(model_path)
 
     filenames = readlines("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/files.txt")
 
     dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, opt.height, opt.width,
                                [0, 1], 4, is_train=False)
-    dataloader = DataLoader(dataset, opt.batch_size, shuffle=False,
-                            num_workers=opt.num_workers, pin_memory=True, drop_last=False)
+    dataloader = DataLoader(dataset, 2, shuffle=False,
+                            num_workers=2, pin_memory=True, drop_last=False)
 
-    pose_encoder_path = os.path.join(opt.load_weights_folder, "pose_encoder.pth")
-    pose_decoder_path = os.path.join(opt.load_weights_folder, "pose.pth")
+
+    pose_encoder_path = os.path.join(model_path, "pose_encoder.pth")
+    pose_decoder_path = os.path.join(model_path, "pose.pth")
 
     pose_encoder = networks.ResnetEncoder(opt.num_layers, False, 2)
     pose_encoder.load_state_dict(torch.load(pose_encoder_path))
@@ -97,7 +99,7 @@ def evaluate(opt):
 
     pred_poses = np.concatenate(pred_poses)
 
-    save_path = os.path.join(opt.load_weights_folder, "poses.npy")
+    save_path = os.path.join("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", "poses.npy")
     np.save(save_path, pred_poses)
     print("-> Predictions saved to", save_path)
 
