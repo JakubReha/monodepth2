@@ -48,7 +48,7 @@ def compute_ate(gtruth_xyz, pred_xyz_o):
 
 
 def evaluate(opt):
-    cpu = False
+    cpu = True
     """Evaluate odometry on the KITTI dataset
     """
     model_name = "mono+stereo_1024x320"
@@ -68,7 +68,7 @@ def evaluate(opt):
 
         dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
                                    [0, 1], 4, is_train=False)
-    dataloader = DataLoader(dataset, 12, shuffle=False,
+    dataloader = DataLoader(dataset, 1, shuffle=False,
                             num_workers=2, pin_memory=True, drop_last=False)
 
 
