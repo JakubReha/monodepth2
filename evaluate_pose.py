@@ -8,7 +8,7 @@ from __future__ import absolute_import, division, print_function
 
 import os
 import numpy as np
-
+import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -48,6 +48,7 @@ def compute_ate(gtruth_xyz, pred_xyz_o):
 
 
 def evaluate(opt):
+    cpu = False
     """Evaluate odometry on the KITTI dataset
     """
     model_name = "mono+stereo_1024x320"
@@ -56,12 +57,18 @@ def evaluate(opt):
 
     assert os.path.isdir(model_path), \
         "Cannot find a folder at {}".format(model_path)
+    if cpu:
+        filenames = readlines("attrium_2_out/files.txt")
 
-    filenames = readlines("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/files.txt")
+        dataset = IPHONEOdomDataset("attrium_2_out/", filenames,
+                                    1080, 1920,
+                                    [0, 1], 4, is_train=False)
+    else:
+        filenames = readlines("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/files.txt")
 
-    dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
-                               [0, 1], 4, is_train=False)
-    dataloader = DataLoader(dataset, 1, shuffle=False,
+        dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
+                                   [0, 1], 4, is_train=False)
+    dataloader = DataLoader(dataset, 12, shuffle=False,
                             num_workers=2, pin_memory=True, drop_last=False)
 
 
@@ -69,32 +76,31 @@ def evaluate(opt):
     pose_decoder_path = os.path.join(model_path, "pose.pth")
 
     pose_encoder = networks.ResnetEncoder(opt.num_layers, False, 2)
-    pose_encoder.load_state_dict(torch.load(pose_encoder_path))
-
     pose_decoder = networks.PoseDecoder(pose_encoder.num_ch_enc, 1, 2)
-    pose_decoder.load_state_dict(torch.load(pose_decoder_path))
 
-    pose_encoder.cuda()
+    if cpu:
+        pose_encoder.load_state_dict(torch.load(pose_encoder_path, map_location=torch.device('cpu')))
+        pose_decoder.load_state_dict(torch.load(pose_decoder_path, map_location=torch.device('cpu')))
+    else:
+        pose_encoder.load_state_dict(torch.load(pose_encoder_path))
+        pose_decoder.load_state_dict(torch.load(pose_decoder_path))
+        pose_encoder.cuda()
+        pose_decoder.cuda()
+
     pose_encoder.eval()
-    pose_decoder.cuda()
     pose_decoder.eval()
 
     pred_poses = []
 
     print("-> Computing pose predictions")
 
-    for inputs in dataloader:
-        for key, ipt in inputs.items():
-            inputs[key] = ipt.cuda()
-        prev = inputs[("color_aug", 0, 0)]
-        break
-
     with torch.no_grad():
         for inputs in tqdm(dataloader):
             for key, ipt in inputs.items():
-                inputs[key] = ipt.cuda()
+                if not cpu:
+                    inputs[key] = ipt.cuda()
 
-            pose_inputs = [prev, inputs[("color_aug", 0, 0)]]
+            pose_inputs = [inputs[("color_aug", 0, 0)], inputs[("color_aug", 1, 0)]]
             all_color_aug = torch.cat(pose_inputs, 1)
 
             features = [pose_encoder(all_color_aug)]
@@ -102,11 +108,13 @@ def evaluate(opt):
 
             pred_poses.append(
                 transformation_from_parameters(axisangle[:, 0], translation[:, 0]).cpu().numpy())
-            prev = inputs[("color_aug", 0, 0)]
 
     pred_poses = np.concatenate(pred_poses)
 
-    save_path = os.path.join("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", "poses.npy")
+    if cpu:
+        save_path = os.path.join("attrium_2_out/", "poses.npy")
+    else:
+        save_path = os.path.join("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", "poses.npy")
     np.save(save_path, pred_poses)
     print("-> Predictions saved to", save_path)
 
