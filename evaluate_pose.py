@@ -48,7 +48,7 @@ def compute_ate(gtruth_xyz, pred_xyz_o):
 
 
 def evaluate(opt):
-    cpu = True
+    cpu = not torch.cuda.is_available()
     """Evaluate odometry on the KITTI dataset
     """
     model_name = "mono+stereo_1024x320"
