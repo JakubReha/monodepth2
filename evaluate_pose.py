@@ -95,20 +95,22 @@ def evaluate(opt):
     print("-> Computing pose predictions")
 
     with torch.no_grad():
-        for inputs in tqdm(dataloader):
-            for key, ipt in inputs.items():
-                if not cpu:
-                    inputs[key] = ipt.cuda()
+        try:
+            for inputs in tqdm(dataloader):
+                for key, ipt in inputs.items():
+                    if not cpu:
+                        inputs[key] = ipt.cuda()
 
-            pose_inputs = [inputs[("color_aug", 0, 0)], inputs[("color_aug", 1, 0)]]
-            all_color_aug = torch.cat(pose_inputs, 1)
+                pose_inputs = [inputs[("color_aug", 0, 0)], inputs[("color_aug", 1, 0)]]
+                all_color_aug = torch.cat(pose_inputs, 1)
 
-            features = [pose_encoder(all_color_aug)]
-            axisangle, translation = pose_decoder(features)
+                features = [pose_encoder(all_color_aug)]
+                axisangle, translation = pose_decoder(features)
 
-            pred_poses.append(
-                transformation_from_parameters(axisangle[:, 0], translation[:, 0]).cpu().numpy())
-
+                pred_poses.append(
+                    transformation_from_parameters(axisangle[:, 0], translation[:, 0]).cpu().numpy())
+        except:
+            pass
     pred_poses = np.concatenate(pred_poses)
 
     if cpu:
