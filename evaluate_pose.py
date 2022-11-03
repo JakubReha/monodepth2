@@ -49,6 +49,8 @@ def compute_ate(gtruth_xyz, pred_xyz_o):
 
 def evaluate(opt):
     cpu = not torch.cuda.is_available()
+    #opt.data_path = "/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/"
+
     """Evaluate odometry on the KITTI dataset
     """
     model_name = "mono+stereo_1024x320"
@@ -57,17 +59,11 @@ def evaluate(opt):
 
     assert os.path.isdir(model_path), \
         "Cannot find a folder at {}".format(model_path)
-    if cpu:
-        filenames = readlines("attrium_2_out/files.txt")
 
-        dataset = IPHONEOdomDataset("attrium_2_out/", filenames,
-                                    1080, 1920,
-                                    [0, 1], 4, is_train=False)
-    else:
-        filenames = readlines("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/files.txt")
+    filenames = readlines(os.path.join(opt.data_path, "files.txt"))
 
-        dataset = IPHONEOdomDataset("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", filenames, 1080, 1920,
-                                   [0, 1], 4, is_train=False)
+    dataset = IPHONEOdomDataset(opt.data_path, filenames, 1080, 1920,
+                               [0, 1], 4, is_train=False)
     dataloader = DataLoader(dataset, 1, shuffle=False,
                             num_workers=2, pin_memory=True, drop_last=False)
 
@@ -113,10 +109,7 @@ def evaluate(opt):
             pass
     pred_poses = np.concatenate(pred_poses)
 
-    if cpu:
-        save_path = os.path.join("attrium_2_out/", "poses.npy")
-    else:
-        save_path = os.path.join("/content/drive/MyDrive/Project/Dataset/Videos/iPhone8/attrium_2_out/", "poses.npy")
+    save_path = os.path.join(opt.data_path, "poses.npy")
     np.save(save_path, pred_poses)
     print("-> Predictions saved to", save_path)
 
