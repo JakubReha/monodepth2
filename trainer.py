@@ -113,7 +113,8 @@ class Trainer:
 
         # data
         datasets_dict = {"kitti": datasets.KITTIRAWDataset,
-                         "kitti_odom": datasets.KITTIOdomDataset}
+                         "kitti_odom": datasets.KITTIOdomDataset,
+                         "own": datasets.IPHONEOdomDataset}
         self.dataset = datasets_dict[self.opt.dataset]
 
         fpath = os.path.join(os.path.dirname(__file__), "splits", self.opt.split, "{}_files.txt")
@@ -607,7 +608,7 @@ class Trainer:
         """Load model(s) from disk
         """
         self.opt.load_weights_folder = os.path.expanduser(self.opt.load_weights_folder)
-
+        download_model_if_doesnt_exist(self.opt.load_weights_folder.split("/")[1])
 
         assert os.path.isdir(self.opt.load_weights_folder), \
             "Cannot find folder {}".format(self.opt.load_weights_folder)
@@ -615,9 +616,7 @@ class Trainer:
 
         for n in self.opt.models_to_load:
             print("Loading {} weights...".format(n))
-            path = os.path.join(self.opt.load_weights_folder, "{}.pth".format(n))
-            download_model_if_doesnt_exist(self.opt.load_weights_folder.split("/")[1])
-            #model_path = os.path.join("models", n)
+            path = os.path.join(self.opt.load_weights_folder, "{}.pth".format(n))            #model_path = os.path.join("models", n)
             model_dict = self.models[n].state_dict()
             pretrained_dict = torch.load(path)
             pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in model_dict}
