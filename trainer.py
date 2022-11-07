@@ -24,6 +24,7 @@ from layers import *
 import datasets
 import networks
 from IPython import embed
+from utils import download_model_if_doesnt_exist
 
 
 class Trainer:
@@ -607,6 +608,7 @@ class Trainer:
         """
         self.opt.load_weights_folder = os.path.expanduser(self.opt.load_weights_folder)
 
+
         assert os.path.isdir(self.opt.load_weights_folder), \
             "Cannot find folder {}".format(self.opt.load_weights_folder)
         print("loading model from folder {}".format(self.opt.load_weights_folder))
@@ -614,6 +616,8 @@ class Trainer:
         for n in self.opt.models_to_load:
             print("Loading {} weights...".format(n))
             path = os.path.join(self.opt.load_weights_folder, "{}.pth".format(n))
+            download_model_if_doesnt_exist(n)
+            #model_path = os.path.join("models", n)
             model_dict = self.models[n].state_dict()
             pretrained_dict = torch.load(path)
             pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in model_dict}
