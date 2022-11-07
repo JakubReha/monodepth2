@@ -53,7 +53,7 @@ class MonodepthOptions:
         self.parser.add_argument("--height",
                                  type=int,
                                  help="input image height",
-                                 default=1080)
+                                 default=1056)
         self.parser.add_argument("--width",
                                  type=int,
                                  help="input image width",
