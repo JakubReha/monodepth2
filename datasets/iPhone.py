@@ -47,7 +47,7 @@ class IPHONEOdomDataset(IPHONEDataset):
         super(IPHONEOdomDataset, self).__init__(*args, **kwargs)
 
     def get_image_path(self, folder, frame_index, side):
-        f_str = "img{:04d}{}".format(frame_index+1, ".jpg")
+        f_str = os.path.join(folder, "img{:04d}{}".format(frame_index, ".jpg"))
         image_path = os.path.join(
             self.data_path,
             f_str)
