@@ -147,7 +147,7 @@ class MonodepthOptions:
         self.parser.add_argument("--load_weights_folder",
                                  type=str,
                                  help="name of model to load",
-                                 default=["models/encoder.pth"])
+                                 default="models/mono_1024x320")
 
         self.parser.add_argument("--models_to_load",
                                  nargs="+",
