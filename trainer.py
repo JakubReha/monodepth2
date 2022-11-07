@@ -616,7 +616,7 @@ class Trainer:
         for n in self.opt.models_to_load:
             print("Loading {} weights...".format(n))
             path = os.path.join(self.opt.load_weights_folder, "{}.pth".format(n))
-            download_model_if_doesnt_exist(n)
+            download_model_if_doesnt_exist(self.opt.load_weights_folder.split("/")[1])
             #model_path = os.path.join("models", n)
             model_dict = self.models[n].state_dict()
             pretrained_dict = torch.load(path)
