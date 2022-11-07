@@ -144,7 +144,7 @@ class MonoDataset(data.Dataset):
         folder = line[0]
 
         if len(line) > 1:
-            frame_index = int(line[1])
+            frame_index = int(line[1].split(".")[0].split("g")[1])
         else:
             frame_index = index
 
