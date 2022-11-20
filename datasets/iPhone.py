@@ -25,6 +25,11 @@ class IPHONEDataset(MonoDataset):
                            [0, 0, 1, 0],
                            [0, 0, 0, 1]], dtype=np.float32)
 
+        self.K = np.array([[0.87, 0, 0.49, 0],
+                           [0, 1.55, 0.53, 0],
+                           [0, 0, 1, 0],
+                           [0, 0, 0, 1]], dtype=np.float32)
+
         self.full_res_shape = (1920, 1080)
         self.side_map = {"2": 2, "3": 3, "l": 2, "r": 3}
 
