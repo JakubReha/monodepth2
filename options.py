@@ -171,7 +171,7 @@ class MonodepthOptions:
                                  action="store_true")
         self.parser.add_argument("--eval_mono",
                                  help="if set evaluates in mono mode",
-                                 action="store_true")
+                                 action="store_false")
         self.parser.add_argument("--disable_median_scaling",
                                  help="if set disables median scaling in evaluation",
                                  action="store_true")

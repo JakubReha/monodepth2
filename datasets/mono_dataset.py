@@ -146,6 +146,7 @@ class MonoDataset(data.Dataset):
         if len(line) > 1:
             frame_index = int(line[1].split(".")[0].split("g")[1])
         else:
+            print("index might be wrong")
             frame_index = index
 
         if len(line) == 3:
