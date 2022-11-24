@@ -70,8 +70,9 @@ def test_simple(args):
         print("Warning: The --pred_metric_depth flag only makes sense for stereo-trained KITTI "
               "models. For mono-trained models, output depths will not in metric space.")
 
-    download_model_if_doesnt_exist(args.model_name)
-    model_path = os.path.join("models", args.model_name)
+    """download_model_if_doesnt_exist(args.model_name)
+    model_path = os.path.join("models", args.model_name)"""
+    model_path = "/content/drive/MyDrive/Project/Dataset/Videos/iPhone13/train/logs/red_bird_66/models/weights_18"
     print("-> Loading model from ", model_path)
     encoder_path = os.path.join(model_path, "encoder.pth")
     depth_decoder_path = os.path.join(model_path, "depth.pth")
