@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "CameraCalibration_1",
+    "nodeType": "CameraCalibration",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_cameraCalibration  --input \"c:/code/COMP_6411B_project/Camera/iPhone13/calibration_long\" --pattern CHESSBOARD --size 9 6 --squareSize 26.0 --nbDistortionCoef 3 --maxFrames 0 --maxCalibFrames 50 --calibGridSize 10 --minInputFrames 10 --maxTotalAvgErr 0.1 --debugRejectedImgFolder \"\" --debugSelectedImgFolder \"c:/code/COMP_6411B_project/Camera/iPhone13/calibration_long/debug\" --output \"C:/code/COMP_6411B_project/Camera/MeshroomCache/CameraCalibration/e9687919c9460652f5dbc5344ae024a5c2280e8b/cameraCalibration.cal\"",
+    "env": null,
+    "startDateTime": "2022-11-24 14:46:30.459885",
+    "endDateTime": "2022-11-24 14:48:09.766436",
+    "elapsedTime": 99.30655121803284,
+    "hostname": "PC-TomNotch",
+    "sessionUid": "32ecb49e-6bc2-11ed-8ba4-d89c678661c6",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:01:39.306551"
+}

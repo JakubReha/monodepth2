@@ -9,6 +9,7 @@ Our worked version works the same way as the original described below. Furthermo
 
 `python test_simple.py --image_path /content/drive/MyDrive/train/ --model_name mono_1024x320 --ext jpg`
 
+Reconstruction part is in the [reconstruction](./reconstruction/) folder.
 
 # Monodepth2
 

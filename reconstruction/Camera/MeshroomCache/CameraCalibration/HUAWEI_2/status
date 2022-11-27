@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "CameraCalibration_1",
+    "nodeType": "CameraCalibration",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_cameraCalibration  --input \"c:/code/COMP_6411B_project/Camera/HUAWEI/HUAWEI_2\" --pattern CHESSBOARD --size 9 6 --squareSize 26.0 --nbDistortionCoef 3 --maxFrames 0 --maxCalibFrames 50 --calibGridSize 10 --minInputFrames 10 --maxTotalAvgErr 0.1 --debugRejectedImgFolder \"\" --debugSelectedImgFolder \"c:/code/COMP_6411B_project/Camera/HUAWEI/HUAWEI_2/debug\" --output \"C:/code/COMP_6411B_project/Camera/HUAWEI/MeshroomCache/CameraCalibration/5c66b73981d76e87f8300afab802f0649a72cb5f/cameraCalibration.cal\"",
+    "env": null,
+    "startDateTime": "2022-11-24 14:21:11.244856",
+    "endDateTime": "2022-11-24 14:23:44.100886",
+    "elapsedTime": 152.8560299873352,
+    "hostname": "PC-TomNotch",
+    "sessionUid": "040e1bfa-6bb7-11ed-954b-d89c678661c6",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:02:32.856030"
+}

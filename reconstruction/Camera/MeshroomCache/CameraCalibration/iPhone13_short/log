@@ -1,0 +1,1725 @@
+Program called with the following parameters:
+ * calibGridSize = 10
+ * debugRejectedImgFolder = ""
+ * debugSelectedImgFolder = "c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short/debug"
+ * input =  Unknown Type "class boost::filesystem::path"
+ * maxCalibFrames = 50
+ * maxFrames = 0
+ * maxTotalAvgErr = 0.1
+ * minInputFrames = 10
+ * nbDistortionCoef = 3
+ * output = "C:/code/COMP_6411B_project/Camera/MeshroomCache/CameraCalibration/1ff325cc96d61e2c90112a751be4fc48d156f0bc/cameraCalibration.cal"
+ * pattern =  Unknown Type "enum aliceVision::calibration::Pattern"
+ * size =  Unknown Type "class std::vector<unsigned __int64,class std::allocator<unsigned __int64> >"
+ * squareSize = 26
+
+[2022-11-24 14:42:48.940701] [0x00004578] [debug]   folder without expression: c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short
+[2022-11-24 14:42:48.940701] [0x00004578] [debug]   directory feedImage
+Input video length is 270.
+[2022-11-24 14:42:48.940701] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\001.jpg
+[2022-11-24 14:42:48.965921] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\001.jpg (encoded in sRGB colorspace).
+[0/270] (0/270)
+[2022-11-24 14:42:49.111900] [0x00004578] [debug]   Find chessboard corners' duration: 0.123
+[2022-11-24 14:42:49.111900] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:49.111900] [0x00004578] [debug]   frame 1
+[2022-11-24 14:42:49.111900] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\002.jpg
+[2022-11-24 14:42:49.139807] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\002.jpg (encoded in sRGB colorspace).
+[1/270] (1/270)
+[2022-11-24 14:42:49.298958] [0x00004578] [debug]   Find chessboard corners' duration: 0.13
+[2022-11-24 14:42:49.298958] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:49.298958] [0x00004578] [debug]   frame 2
+[2022-11-24 14:42:49.298958] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\003.jpg
+[2022-11-24 14:42:49.320217] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\003.jpg (encoded in sRGB colorspace).
+[2/270] (2/270)
+[2022-11-24 14:42:49.486866] [0x00004578] [debug]   Find chessboard corners' duration: 0.139
+[2022-11-24 14:42:49.486866] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:49.486866] [0x00004578] [debug]   frame 3
+[2022-11-24 14:42:49.486866] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\004.jpg
+[2022-11-24 14:42:49.514764] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\004.jpg (encoded in sRGB colorspace).
+[3/270] (3/270)
+[2022-11-24 14:42:49.676885] [0x00004578] [debug]   Find chessboard corners' duration: 0.133
+[2022-11-24 14:42:49.676885] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:49.676885] [0x00004578] [debug]   frame 4
+[2022-11-24 14:42:49.676885] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\005.jpg
+[2022-11-24 14:42:49.692509] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\005.jpg (encoded in sRGB colorspace).
+[4/270] (4/270)
+[2022-11-24 14:42:49.868897] [0x00004578] [debug]   Find chessboard corners' duration: 0.137
+[2022-11-24 14:42:49.868897] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:49.868897] [0x00004578] [debug]   frame 5
+[2022-11-24 14:42:49.868897] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\006.jpg
+[2022-11-24 14:42:49.889330] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\006.jpg (encoded in sRGB colorspace).
+[5/270] (5/270)
+[2022-11-24 14:42:50.035248] [0x00004578] [debug]   Find chessboard corners' duration: 0.121
+[2022-11-24 14:42:50.035248] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:50.035248] [0x00004578] [debug]   frame 6
+[2022-11-24 14:42:50.035248] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\007.jpg
+[2022-11-24 14:42:50.063061] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\007.jpg (encoded in sRGB colorspace).
+[6/270] (6/270)
+[2022-11-24 14:42:50.215123] [0x00004578] [debug]   Find chessboard corners' duration: 0.131
+[2022-11-24 14:42:50.215123] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:50.215123] [0x00004578] [debug]   frame 7
+[2022-11-24 14:42:50.215123] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\008.jpg
+[2022-11-24 14:42:50.236279] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\008.jpg (encoded in sRGB colorspace).
+[7/270] (7/270)
+[2022-11-24 14:42:50.396001] [0x00004578] [debug]   Find chessboard corners' duration: 0.131
+[2022-11-24 14:42:50.396001] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:50.397000] [0x00004578] [debug]   frame 8
+[2022-11-24 14:42:50.397000] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\009.jpg
+[2022-11-24 14:42:50.417004] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\009.jpg (encoded in sRGB colorspace).
+[8/270] (8/270)
+[2022-11-24 14:42:50.569859] [0x00004578] [debug]   Find chessboard corners' duration: 0.128
+[2022-11-24 14:42:50.569859] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:50.569859] [0x00004578] [debug]   frame 9
+[2022-11-24 14:42:50.569859] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\010.jpg
+[2022-11-24 14:42:50.591345] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\010.jpg (encoded in sRGB colorspace).
+[9/270] (9/270)
+[2022-11-24 14:42:50.751149] [0x00004578] [debug]   Find chessboard corners' duration: 0.131
+[2022-11-24 14:42:50.751149] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:50.751149] [0x00004578] [debug]   frame 10
+[2022-11-24 14:42:50.751149] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\011.jpg
+[2022-11-24 14:42:50.771612] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\011.jpg (encoded in sRGB colorspace).
+[10/270] (10/270)
+[2022-11-24 14:42:50.827184] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:50.827184] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:50.827184] [0x00004578] [debug]   frame 11
+[2022-11-24 14:42:50.827184] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\012.jpg
+[2022-11-24 14:42:50.847745] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\012.jpg (encoded in sRGB colorspace).
+[11/270] (11/270)
+[2022-11-24 14:42:50.903687] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:50.903687] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:50.903687] [0x00004578] [debug]   frame 12
+[2022-11-24 14:42:50.903687] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\013.jpg
+[2022-11-24 14:42:50.923806] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\013.jpg (encoded in sRGB colorspace).
+[12/270] (12/270)
+[2022-11-24 14:42:50.994089] [0x00004578] [debug]   Find chessboard corners' duration: 0.042
+[2022-11-24 14:42:50.994089] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:50.994089] [0x00004578] [debug]   frame 13
+[2022-11-24 14:42:50.994089] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\014.jpg
+[2022-11-24 14:42:51.014283] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\014.jpg (encoded in sRGB colorspace).
+[13/270] (13/270)
+[2022-11-24 14:42:51.070812] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:51.070812] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.070812] [0x00004578] [debug]   frame 14
+[2022-11-24 14:42:51.070812] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\015.jpg
+[2022-11-24 14:42:51.098818] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\015.jpg (encoded in sRGB colorspace).
+[14/270] (14/270)
+[2022-11-24 14:42:51.153425] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:51.153425] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:51.153425] [0x00004578] [debug]   frame 15
+[2022-11-24 14:42:51.153425] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\016.jpg
+[2022-11-24 14:42:51.180724] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\016.jpg (encoded in sRGB colorspace).
+[15/270] (15/270)
+[2022-11-24 14:42:51.236837] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:51.236837] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.236837] [0x00004578] [debug]   frame 16
+[2022-11-24 14:42:51.236837] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\017.jpg
+[2022-11-24 14:42:51.257100] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\017.jpg (encoded in sRGB colorspace).
+[16/270] (16/270)
+[2022-11-24 14:42:51.313214] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:51.313214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.313214] [0x00004578] [debug]   frame 17
+[2022-11-24 14:42:51.313214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\018.jpg
+[2022-11-24 14:42:51.340610] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\018.jpg (encoded in sRGB colorspace).
+[17/270] (17/270)
+[2022-11-24 14:42:51.397282] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:51.397282] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.397282] [0x00004578] [debug]   frame 18
+[2022-11-24 14:42:51.397282] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\019.jpg
+[2022-11-24 14:42:51.417051] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\019.jpg (encoded in sRGB colorspace).
+[18/270] (18/270)
+[2022-11-24 14:42:51.480330] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:51.480330] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:51.480330] [0x00004578] [debug]   frame 19
+[2022-11-24 14:42:51.480330] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\020.jpg
+[2022-11-24 14:42:51.500795] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\020.jpg (encoded in sRGB colorspace).
+[19/270] (19/270)
+[2022-11-24 14:42:51.564139] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:51.564139] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:51.564139] [0x00004578] [debug]   frame 20
+[2022-11-24 14:42:51.564139] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\021.jpg
+[2022-11-24 14:42:51.583709] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\021.jpg (encoded in sRGB colorspace).
+[20/270] (20/270)
+[2022-11-24 14:42:51.647137] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:51.647137] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.647137] [0x00004578] [debug]   frame 21
+[2022-11-24 14:42:51.647137] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\022.jpg
+[2022-11-24 14:42:51.673781] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\022.jpg (encoded in sRGB colorspace).
+[21/270] (21/270)
+[2022-11-24 14:42:51.723898] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:51.730236] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:51.730236] [0x00004578] [debug]   frame 22
+[2022-11-24 14:42:51.730236] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\023.jpg
+[2022-11-24 14:42:51.750374] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\023.jpg (encoded in sRGB colorspace).
+[22/270] (22/270)
+[2022-11-24 14:42:51.800100] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:51.800100] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.800100] [0x00004578] [debug]   frame 23
+[2022-11-24 14:42:51.806400] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\024.jpg
+[2022-11-24 14:42:51.826573] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\024.jpg (encoded in sRGB colorspace).
+[23/270] (23/270)
+[2022-11-24 14:42:51.882875] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:51.882875] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:51.882875] [0x00004578] [debug]   frame 24
+[2022-11-24 14:42:51.882875] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\025.jpg
+[2022-11-24 14:42:51.909905] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\025.jpg (encoded in sRGB colorspace).
+[24/270] (24/270)
+[2022-11-24 14:42:52.056030] [0x00004578] [debug]   Find chessboard corners' duration: 0.124
+[2022-11-24 14:42:52.056030] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:52.056030] [0x00004578] [debug]   frame 25
+[2022-11-24 14:42:52.056030] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\026.jpg
+[2022-11-24 14:42:52.076800] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\026.jpg (encoded in sRGB colorspace).
+[25/270] (25/270)
+[2022-11-24 14:42:52.133492] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:52.139745] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:52.139745] [0x00004578] [debug]   frame 26
+[2022-11-24 14:42:52.140442] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\027.jpg
+[2022-11-24 14:42:52.160686] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\027.jpg (encoded in sRGB colorspace).
+[26/270] (26/270)
+[2022-11-24 14:42:52.224172] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:42:52.224172] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:52.224172] [0x00004578] [debug]   frame 27
+[2022-11-24 14:42:52.224172] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\028.jpg
+[2022-11-24 14:42:52.250699] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\028.jpg (encoded in sRGB colorspace).
+[27/270] (27/270)
+[2022-11-24 14:42:52.306974] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:42:52.306974] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:52.306974] [0x00004578] [debug]   frame 28
+[2022-11-24 14:42:52.306974] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\029.jpg
+[2022-11-24 14:42:52.333717] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\029.jpg (encoded in sRGB colorspace).
+[28/270] (28/270)
+[2022-11-24 14:42:52.389905] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:52.389905] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:52.389905] [0x00004578] [debug]   frame 29
+[2022-11-24 14:42:52.389905] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\030.jpg
+[2022-11-24 14:42:52.409859] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\030.jpg (encoded in sRGB colorspace).
+[29/270] (29/270)
+[2022-11-24 14:42:52.466085] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:52.466085] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:52.466085] [0x00004578] [debug]   frame 30
+[2022-11-24 14:42:52.466085] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\031.jpg
+[2022-11-24 14:42:52.493227] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\031.jpg (encoded in sRGB colorspace).
+[30/270] (30/270)
+[2022-11-24 14:42:52.542208] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:52.542208] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:52.542208] [0x00004578] [debug]   frame 31
+[2022-11-24 14:42:52.542208] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\032.jpg
+[2022-11-24 14:42:52.569929] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\032.jpg (encoded in sRGB colorspace).
+[31/270] (31/270)
+[2022-11-24 14:42:52.625516] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:52.625516] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:52.625516] [0x00004578] [debug]   frame 32
+[2022-11-24 14:42:52.625516] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\033.jpg
+[2022-11-24 14:42:52.645973] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\033.jpg (encoded in sRGB colorspace).
+[32/270] (32/270)
+[2022-11-24 14:42:52.702029] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:52.702029] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:52.702029] [0x00004578] [debug]   frame 33
+[2022-11-24 14:42:52.702029] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\034.jpg
+[2022-11-24 14:42:52.722404] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\034.jpg (encoded in sRGB colorspace).
+[33/270] (33/270)
+[2022-11-24 14:42:52.868466] [0x00004578] [debug]   Find chessboard corners' duration: 0.119
+[2022-11-24 14:42:52.868466] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:52.868466] [0x00004578] [debug]   frame 34
+[2022-11-24 14:42:52.868466] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\035.jpg
+[2022-11-24 14:42:52.890498] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\035.jpg (encoded in sRGB colorspace).
+[34/270] (34/270)
+[2022-11-24 14:42:53.042262] [0x00004578] [debug]   Find chessboard corners' duration: 0.123
+[2022-11-24 14:42:53.042262] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:53.042262] [0x00004578] [debug]   frame 35
+[2022-11-24 14:42:53.042262] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\036.jpg
+[2022-11-24 14:42:53.063251] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\036.jpg (encoded in sRGB colorspace).
+[35/270] (35/270)
+[2022-11-24 14:42:53.135644] [0x00004578] [debug]   Find chessboard corners' duration: 0.044
+[2022-11-24 14:42:53.135644] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:53.135644] [0x00004578] [debug]   frame 36
+[2022-11-24 14:42:53.139553] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\037.jpg
+[2022-11-24 14:42:53.160606] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\037.jpg (encoded in sRGB colorspace).
+[36/270] (36/270)
+[2022-11-24 14:42:53.306070] [0x00004578] [debug]   Find chessboard corners' duration: 0.118
+[2022-11-24 14:42:53.307205] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:53.307205] [0x00004578] [debug]   frame 37
+[2022-11-24 14:42:53.307205] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\038.jpg
+[2022-11-24 14:42:53.327449] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\038.jpg (encoded in sRGB colorspace).
+[37/270] (37/270)
+[2022-11-24 14:42:53.391317] [0x00004578] [debug]   Find chessboard corners' duration: 0.042
+[2022-11-24 14:42:53.391317] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:53.391317] [0x00004578] [debug]   frame 38
+[2022-11-24 14:42:53.391317] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\039.jpg
+[2022-11-24 14:42:53.416871] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\039.jpg (encoded in sRGB colorspace).
+[38/270] (38/270)
+[2022-11-24 14:42:53.556096] [0x00004578] [debug]   Find chessboard corners' duration: 0.117
+[2022-11-24 14:42:53.556096] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:53.556096] [0x00004578] [debug]   frame 39
+[2022-11-24 14:42:53.556096] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\040.jpg
+[2022-11-24 14:42:53.577834] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\040.jpg (encoded in sRGB colorspace).
+[39/270] (39/270)
+[2022-11-24 14:42:53.723123] [0x00004578] [debug]   Find chessboard corners' duration: 0.12
+[2022-11-24 14:42:53.723123] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:53.723123] [0x00004578] [debug]   frame 40
+[2022-11-24 14:42:53.723123] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\041.jpg
+[2022-11-24 14:42:53.750513] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\041.jpg (encoded in sRGB colorspace).
+[40/270] (40/270)
+[2022-11-24 14:42:53.890096] [0x00004578] [debug]   Find chessboard corners' duration: 0.119
+[2022-11-24 14:42:53.890096] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:53.890096] [0x00004578] [debug]   frame 41
+[2022-11-24 14:42:53.890096] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\042.jpg
+[2022-11-24 14:42:53.909926] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\042.jpg (encoded in sRGB colorspace).
+[41/270] (41/270)
+[2022-11-24 14:42:53.966226] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:53.967012] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:53.967012] [0x00004578] [debug]   frame 42
+[2022-11-24 14:42:53.967012] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\043.jpg
+[2022-11-24 14:42:53.986569] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\043.jpg (encoded in sRGB colorspace).
+[42/270] (42/270)
+[2022-11-24 14:42:54.044182] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:54.044182] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:54.044182] [0x00004578] [debug]   frame 43
+[2022-11-24 14:42:54.044182] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\044.jpg
+[2022-11-24 14:42:54.069905] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\044.jpg (encoded in sRGB colorspace).
+[43/270] (43/270)
+[2022-11-24 14:42:54.126172] [0x00004578] [debug]   Find chessboard corners' duration: 0.035
+[2022-11-24 14:42:54.126172] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.126172] [0x00004578] [debug]   frame 44
+[2022-11-24 14:42:54.126172] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\045.jpg
+[2022-11-24 14:42:54.152960] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\045.jpg (encoded in sRGB colorspace).
+[44/270] (44/270)
+[2022-11-24 14:42:54.209283] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:54.209283] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.209283] [0x00004578] [debug]   frame 45
+[2022-11-24 14:42:54.209283] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\046.jpg
+[2022-11-24 14:42:54.236336] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\046.jpg (encoded in sRGB colorspace).
+[45/270] (45/270)
+[2022-11-24 14:42:54.286327] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:54.286327] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.286327] [0x00004578] [debug]   frame 46
+[2022-11-24 14:42:54.292338] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\047.jpg
+[2022-11-24 14:42:54.312922] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\047.jpg (encoded in sRGB colorspace).
+[46/270] (46/270)
+[2022-11-24 14:42:54.368630] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:42:54.368630] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:54.368630] [0x00004578] [debug]   frame 47
+[2022-11-24 14:42:54.368630] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\048.jpg
+[2022-11-24 14:42:54.396301] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\048.jpg (encoded in sRGB colorspace).
+[47/270] (47/270)
+[2022-11-24 14:42:54.445808] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:54.445808] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:54.445808] [0x00004578] [debug]   frame 48
+[2022-11-24 14:42:54.445808] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\049.jpg
+[2022-11-24 14:42:54.465466] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\049.jpg (encoded in sRGB colorspace).
+[48/270] (48/270)
+[2022-11-24 14:42:54.521310] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:54.521916] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.521916] [0x00004578] [debug]   frame 49
+[2022-11-24 14:42:54.521916] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\050.jpg
+[2022-11-24 14:42:54.542535] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\050.jpg (encoded in sRGB colorspace).
+[49/270] (49/270)
+[2022-11-24 14:42:54.599367] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:54.600492] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:54.600492] [0x00004578] [debug]   frame 50
+[2022-11-24 14:42:54.600492] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\051.jpg
+[2022-11-24 14:42:54.620703] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\051.jpg (encoded in sRGB colorspace).
+[50/270] (50/270)
+[2022-11-24 14:42:54.674816] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:54.674816] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:54.674816] [0x00004578] [debug]   frame 51
+[2022-11-24 14:42:54.674816] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\052.jpg
+[2022-11-24 14:42:54.694657] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\052.jpg (encoded in sRGB colorspace).
+[51/270] (51/270)
+[2022-11-24 14:42:54.751357] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:54.757919] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.757919] [0x00004578] [debug]   frame 52
+[2022-11-24 14:42:54.757919] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\053.jpg
+[2022-11-24 14:42:54.777970] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\053.jpg (encoded in sRGB colorspace).
+[52/270] (52/270)
+[2022-11-24 14:42:54.834421] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:54.841119] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.841119] [0x00004578] [debug]   frame 53
+[2022-11-24 14:42:54.841325] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\054.jpg
+[2022-11-24 14:42:54.863667] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\054.jpg (encoded in sRGB colorspace).
+[53/270] (53/270)
+[2022-11-24 14:42:54.917288] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:54.918290] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.918290] [0x00004578] [debug]   frame 54
+[2022-11-24 14:42:54.918437] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\055.jpg
+[2022-11-24 14:42:54.939090] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\055.jpg (encoded in sRGB colorspace).
+[54/270] (54/270)
+[2022-11-24 14:42:54.987346] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:54.987346] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:54.987346] [0x00004578] [debug]   frame 55
+[2022-11-24 14:42:54.987346] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\056.jpg
+[2022-11-24 14:42:55.014138] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\056.jpg (encoded in sRGB colorspace).
+[55/270] (55/270)
+[2022-11-24 14:42:55.064121] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:55.064121] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.064121] [0x00004578] [debug]   frame 56
+[2022-11-24 14:42:55.064121] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\057.jpg
+[2022-11-24 14:42:55.090736] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\057.jpg (encoded in sRGB colorspace).
+[56/270] (56/270)
+[2022-11-24 14:42:55.151632] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:42:55.152633] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.152633] [0x00004578] [debug]   frame 57
+[2022-11-24 14:42:55.152633] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\058.jpg
+[2022-11-24 14:42:55.176786] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\058.jpg (encoded in sRGB colorspace).
+[57/270] (57/270)
+[2022-11-24 14:42:55.226247] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:55.230217] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.230217] [0x00004578] [debug]   frame 58
+[2022-11-24 14:42:55.230217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\059.jpg
+[2022-11-24 14:42:55.252154] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\059.jpg (encoded in sRGB colorspace).
+[58/270] (58/270)
+[2022-11-24 14:42:55.307536] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:55.307536] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.307536] [0x00004578] [debug]   frame 59
+[2022-11-24 14:42:55.307536] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\060.jpg
+[2022-11-24 14:42:55.333521] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\060.jpg (encoded in sRGB colorspace).
+[59/270] (59/270)
+[2022-11-24 14:42:55.390173] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:55.390173] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.390173] [0x00004578] [debug]   frame 60
+[2022-11-24 14:42:55.390173] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\061.jpg
+[2022-11-24 14:42:55.410201] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\061.jpg (encoded in sRGB colorspace).
+[60/270] (60/270)
+[2022-11-24 14:42:55.468819] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:55.468819] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.468819] [0x00004578] [debug]   frame 61
+[2022-11-24 14:42:55.468819] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\062.jpg
+[2022-11-24 14:42:55.493880] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\062.jpg (encoded in sRGB colorspace).
+[61/270] (61/270)
+[2022-11-24 14:42:55.551281] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:55.551281] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.551281] [0x00004578] [debug]   frame 62
+[2022-11-24 14:42:55.551281] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\063.jpg
+[2022-11-24 14:42:55.571103] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\063.jpg (encoded in sRGB colorspace).
+[62/270] (62/270)
+[2022-11-24 14:42:55.626657] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:55.626657] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.626657] [0x00004578] [debug]   frame 63
+[2022-11-24 14:42:55.626657] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\064.jpg
+[2022-11-24 14:42:55.653295] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\064.jpg (encoded in sRGB colorspace).
+[63/270] (63/270)
+[2022-11-24 14:42:55.703147] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:55.703147] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.703147] [0x00004578] [debug]   frame 64
+[2022-11-24 14:42:55.703147] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\065.jpg
+[2022-11-24 14:42:55.722701] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\065.jpg (encoded in sRGB colorspace).
+[64/270] (64/270)
+[2022-11-24 14:42:55.778786] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:55.778786] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.778786] [0x00004578] [debug]   frame 65
+[2022-11-24 14:42:55.778786] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\066.jpg
+[2022-11-24 14:42:55.807599] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\066.jpg (encoded in sRGB colorspace).
+[65/270] (65/270)
+[2022-11-24 14:42:55.861932] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:42:55.861932] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:55.861932] [0x00004578] [debug]   frame 66
+[2022-11-24 14:42:55.861932] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\067.jpg
+[2022-11-24 14:42:55.882643] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\067.jpg (encoded in sRGB colorspace).
+[66/270] (66/270)
+[2022-11-24 14:42:55.933305] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:55.933305] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:55.933305] [0x00004578] [debug]   frame 67
+[2022-11-24 14:42:55.933305] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\068.jpg
+[2022-11-24 14:42:55.958861] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\068.jpg (encoded in sRGB colorspace).
+[67/270] (67/270)
+[2022-11-24 14:42:56.009620] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:56.009620] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.009620] [0x00004578] [debug]   frame 68
+[2022-11-24 14:42:56.009620] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\069.jpg
+[2022-11-24 14:42:56.035036] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\069.jpg (encoded in sRGB colorspace).
+[68/270] (68/270)
+[2022-11-24 14:42:56.089767] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:56.090930] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.090930] [0x00004578] [debug]   frame 69
+[2022-11-24 14:42:56.090930] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\070.jpg
+[2022-11-24 14:42:56.112947] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\070.jpg (encoded in sRGB colorspace).
+[69/270] (69/270)
+[2022-11-24 14:42:56.162106] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:42:56.162106] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:56.162907] [0x00004578] [debug]   frame 70
+[2022-11-24 14:42:56.162907] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\071.jpg
+[2022-11-24 14:42:56.182395] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\071.jpg (encoded in sRGB colorspace).
+[70/270] (70/270)
+[2022-11-24 14:42:56.231853] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:56.231853] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.236805] [0x00004578] [debug]   frame 71
+[2022-11-24 14:42:56.236805] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\072.jpg
+[2022-11-24 14:42:56.258868] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\072.jpg (encoded in sRGB colorspace).
+[71/270] (71/270)
+[2022-11-24 14:42:56.313972] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:56.313972] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.313972] [0x00004578] [debug]   frame 72
+[2022-11-24 14:42:56.313972] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\073.jpg
+[2022-11-24 14:42:56.334839] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\073.jpg (encoded in sRGB colorspace).
+[72/270] (72/270)
+[2022-11-24 14:42:56.398995] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:56.398995] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.398995] [0x00004578] [debug]   frame 73
+[2022-11-24 14:42:56.398995] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\074.jpg
+[2022-11-24 14:42:56.423740] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\074.jpg (encoded in sRGB colorspace).
+[73/270] (73/270)
+[2022-11-24 14:42:56.480040] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:56.480040] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:56.481038] [0x00004578] [debug]   frame 74
+[2022-11-24 14:42:56.481163] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\075.jpg
+[2022-11-24 14:42:56.500268] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\075.jpg (encoded in sRGB colorspace).
+[74/270] (74/270)
+[2022-11-24 14:42:56.558532] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:56.558532] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:56.558532] [0x00004578] [debug]   frame 75
+[2022-11-24 14:42:56.558532] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\076.jpg
+[2022-11-24 14:42:56.584448] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\076.jpg (encoded in sRGB colorspace).
+[75/270] (75/270)
+[2022-11-24 14:42:56.635391] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:56.639919] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:56.639919] [0x00004578] [debug]   frame 76
+[2022-11-24 14:42:56.639919] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\077.jpg
+[2022-11-24 14:42:56.660206] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\077.jpg (encoded in sRGB colorspace).
+[76/270] (76/270)
+[2022-11-24 14:42:56.721715] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:56.722726] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.722726] [0x00004578] [debug]   frame 77
+[2022-11-24 14:42:56.722726] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\078.jpg
+[2022-11-24 14:42:56.743618] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\078.jpg (encoded in sRGB colorspace).
+[77/270] (77/270)
+[2022-11-24 14:42:56.793263] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:56.793263] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:56.793263] [0x00004578] [debug]   frame 78
+[2022-11-24 14:42:56.793263] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\079.jpg
+[2022-11-24 14:42:56.814390] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\079.jpg (encoded in sRGB colorspace).
+[78/270] (78/270)
+[2022-11-24 14:42:56.870865] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:56.870865] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.870865] [0x00004578] [debug]   frame 79
+[2022-11-24 14:42:56.870865] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\080.jpg
+[2022-11-24 14:42:56.895972] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\080.jpg (encoded in sRGB colorspace).
+[79/270] (79/270)
+[2022-11-24 14:42:56.951255] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:56.952257] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:56.952257] [0x00004578] [debug]   frame 80
+[2022-11-24 14:42:56.952257] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\081.jpg
+[2022-11-24 14:42:56.975195] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\081.jpg (encoded in sRGB colorspace).
+[80/270] (80/270)
+[2022-11-24 14:42:57.025549] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:57.025549] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.025549] [0x00004578] [debug]   frame 81
+[2022-11-24 14:42:57.025549] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\082.jpg
+[2022-11-24 14:42:57.049419] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\082.jpg (encoded in sRGB colorspace).
+[81/270] (81/270)
+[2022-11-24 14:42:57.101789] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:57.101789] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.101789] [0x00004578] [debug]   frame 82
+[2022-11-24 14:42:57.101789] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\083.jpg
+[2022-11-24 14:42:57.126229] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\083.jpg (encoded in sRGB colorspace).
+[82/270] (82/270)
+[2022-11-24 14:42:57.181790] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:57.182794] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.182794] [0x00004578] [debug]   frame 83
+[2022-11-24 14:42:57.182794] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\084.jpg
+[2022-11-24 14:42:57.201083] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\084.jpg (encoded in sRGB colorspace).
+[83/270] (83/270)
+[2022-11-24 14:42:57.260188] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:57.261022] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.261022] [0x00004578] [debug]   frame 84
+[2022-11-24 14:42:57.261022] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\085.jpg
+[2022-11-24 14:42:57.278295] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\085.jpg (encoded in sRGB colorspace).
+[84/270] (84/270)
+[2022-11-24 14:42:57.342444] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:57.342444] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:57.342444] [0x00004578] [debug]   frame 85
+[2022-11-24 14:42:57.342444] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\086.jpg
+[2022-11-24 14:42:57.369488] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\086.jpg (encoded in sRGB colorspace).
+[85/270] (85/270)
+[2022-11-24 14:42:57.424932] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:57.424932] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:57.424932] [0x00004578] [debug]   frame 86
+[2022-11-24 14:42:57.424932] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\087.jpg
+[2022-11-24 14:42:57.444666] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\087.jpg (encoded in sRGB colorspace).
+[86/270] (86/270)
+[2022-11-24 14:42:57.504052] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:57.505072] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.505072] [0x00004578] [debug]   frame 87
+[2022-11-24 14:42:57.505072] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\088.jpg
+[2022-11-24 14:42:57.527964] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\088.jpg (encoded in sRGB colorspace).
+[87/270] (87/270)
+[2022-11-24 14:42:57.577726] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:42:57.577726] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:57.577726] [0x00004578] [debug]   frame 88
+[2022-11-24 14:42:57.577726] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\089.jpg
+[2022-11-24 14:42:57.604350] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\089.jpg (encoded in sRGB colorspace).
+[88/270] (88/270)
+[2022-11-24 14:42:57.660548] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:57.660548] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:57.660548] [0x00004578] [debug]   frame 89
+[2022-11-24 14:42:57.660548] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\090.jpg
+[2022-11-24 14:42:57.680772] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\090.jpg (encoded in sRGB colorspace).
+[89/270] (89/270)
+[2022-11-24 14:42:57.730342] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:42:57.730342] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.730342] [0x00004578] [debug]   frame 90
+[2022-11-24 14:42:57.730342] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\091.jpg
+[2022-11-24 14:42:57.750411] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\091.jpg (encoded in sRGB colorspace).
+[90/270] (90/270)
+[2022-11-24 14:42:57.806920] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:57.806920] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.806920] [0x00004578] [debug]   frame 91
+[2022-11-24 14:42:57.806920] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\092.jpg
+[2022-11-24 14:42:57.834363] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\092.jpg (encoded in sRGB colorspace).
+[91/270] (91/270)
+[2022-11-24 14:42:57.889880] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:57.890219] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:57.890219] [0x00004578] [debug]   frame 92
+[2022-11-24 14:42:57.890219] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\093.jpg
+[2022-11-24 14:42:57.910416] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\093.jpg (encoded in sRGB colorspace).
+[92/270] (92/270)
+[2022-11-24 14:42:57.967290] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:57.967290] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:57.967290] [0x00004578] [debug]   frame 93
+[2022-11-24 14:42:57.967290] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\094.jpg
+[2022-11-24 14:42:57.986802] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\094.jpg (encoded in sRGB colorspace).
+[93/270] (93/270)
+[2022-11-24 14:42:58.043394] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:58.043394] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.043394] [0x00004578] [debug]   frame 94
+[2022-11-24 14:42:58.043394] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\095.jpg
+[2022-11-24 14:42:58.070411] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\095.jpg (encoded in sRGB colorspace).
+[94/270] (94/270)
+[2022-11-24 14:42:58.126849] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:42:58.126849] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.126849] [0x00004578] [debug]   frame 95
+[2022-11-24 14:42:58.126849] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\096.jpg
+[2022-11-24 14:42:58.153381] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\096.jpg (encoded in sRGB colorspace).
+[95/270] (95/270)
+[2022-11-24 14:42:58.202406] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:58.202406] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:58.202406] [0x00004578] [debug]   frame 96
+[2022-11-24 14:42:58.202406] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\097.jpg
+[2022-11-24 14:42:58.229373] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\097.jpg (encoded in sRGB colorspace).
+[96/270] (96/270)
+[2022-11-24 14:42:58.285893] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:42:58.285893] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:58.285893] [0x00004578] [debug]   frame 97
+[2022-11-24 14:42:58.285893] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\098.jpg
+[2022-11-24 14:42:58.305965] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\098.jpg (encoded in sRGB colorspace).
+[97/270] (97/270)
+[2022-11-24 14:42:58.369772] [0x00004578] [debug]   Find chessboard corners' duration: 0.038
+[2022-11-24 14:42:58.369772] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.369772] [0x00004578] [debug]   frame 98
+[2022-11-24 14:42:58.369772] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\099.jpg
+[2022-11-24 14:42:58.389299] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\099.jpg (encoded in sRGB colorspace).
+[98/270] (98/270)
+[2022-11-24 14:42:58.438600] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:58.438600] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:58.438600] [0x00004578] [debug]   frame 99
+[2022-11-24 14:42:58.438600] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\100.jpg
+[2022-11-24 14:42:58.465454] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\100.jpg (encoded in sRGB colorspace).
+[99/270] (99/270)
+[2022-11-24 14:42:58.515149] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:58.515149] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:58.515149] [0x00004578] [debug]   frame 100
+[2022-11-24 14:42:58.515149] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\101.jpg
+[2022-11-24 14:42:58.541869] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\101.jpg (encoded in sRGB colorspace).
+[100/270] (100/270)
+[2022-11-24 14:42:58.591837] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:58.591837] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.591837] [0x00004578] [debug]   frame 101
+[2022-11-24 14:42:58.591837] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\102.jpg
+[2022-11-24 14:42:58.618544] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\102.jpg (encoded in sRGB colorspace).
+[101/270] (101/270)
+[2022-11-24 14:42:58.667825] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:58.667825] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.667825] [0x00004578] [debug]   frame 102
+[2022-11-24 14:42:58.667825] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\103.jpg
+[2022-11-24 14:42:58.694642] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\103.jpg (encoded in sRGB colorspace).
+[102/270] (102/270)
+[2022-11-24 14:42:58.743920] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:42:58.744327] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:58.744327] [0x00004578] [debug]   frame 103
+[2022-11-24 14:42:58.744327] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\104.jpg
+[2022-11-24 14:42:58.764081] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\104.jpg (encoded in sRGB colorspace).
+[103/270] (103/270)
+[2022-11-24 14:42:58.818845] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:58.819870] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.819870] [0x00004578] [debug]   frame 104
+[2022-11-24 14:42:58.819870] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\105.jpg
+[2022-11-24 14:42:58.840688] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\105.jpg (encoded in sRGB colorspace).
+[104/270] (104/270)
+[2022-11-24 14:42:58.890174] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:58.890174] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.890174] [0x00004578] [debug]   frame 105
+[2022-11-24 14:42:58.890174] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\106.jpg
+[2022-11-24 14:42:58.909926] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\106.jpg (encoded in sRGB colorspace).
+[105/270] (105/270)
+[2022-11-24 14:42:58.965662] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:58.965662] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:58.965662] [0x00004578] [debug]   frame 106
+[2022-11-24 14:42:58.965662] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\107.jpg
+[2022-11-24 14:42:58.993213] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\107.jpg (encoded in sRGB colorspace).
+[106/270] (106/270)
+[2022-11-24 14:42:59.043338] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:59.043338] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.043338] [0x00004578] [debug]   frame 107
+[2022-11-24 14:42:59.043338] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\108.jpg
+[2022-11-24 14:42:59.062725] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\108.jpg (encoded in sRGB colorspace).
+[107/270] (107/270)
+[2022-11-24 14:42:59.119271] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:59.119271] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.119271] [0x00004578] [debug]   frame 108
+[2022-11-24 14:42:59.119271] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\109.jpg
+[2022-11-24 14:42:59.146034] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\109.jpg (encoded in sRGB colorspace).
+[108/270] (108/270)
+[2022-11-24 14:42:59.195209] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:59.195209] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.195209] [0x00004578] [debug]   frame 109
+[2022-11-24 14:42:59.195209] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\110.jpg
+[2022-11-24 14:42:59.217449] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\110.jpg (encoded in sRGB colorspace).
+[109/270] (109/270)
+[2022-11-24 14:42:59.274173] [0x00004578] [debug]   Find chessboard corners' duration: 0.033
+[2022-11-24 14:42:59.274173] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.274173] [0x00004578] [debug]   frame 110
+[2022-11-24 14:42:59.274173] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\111.jpg
+[2022-11-24 14:42:59.299066] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\111.jpg (encoded in sRGB colorspace).
+[110/270] (110/270)
+[2022-11-24 14:42:59.349107] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:42:59.349107] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.349107] [0x00004578] [debug]   frame 111
+[2022-11-24 14:42:59.349107] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\112.jpg
+[2022-11-24 14:42:59.368272] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\112.jpg (encoded in sRGB colorspace).
+[111/270] (111/270)
+[2022-11-24 14:42:59.424345] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:59.424345] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.424345] [0x00004578] [debug]   frame 112
+[2022-11-24 14:42:59.424345] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\113.jpg
+[2022-11-24 14:42:59.451985] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\113.jpg (encoded in sRGB colorspace).
+[112/270] (112/270)
+[2022-11-24 14:42:59.501498] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:42:59.501498] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.501498] [0x00004578] [debug]   frame 113
+[2022-11-24 14:42:59.501498] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\114.jpg
+[2022-11-24 14:42:59.528256] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\114.jpg (encoded in sRGB colorspace).
+[113/270] (113/270)
+[2022-11-24 14:42:59.577863] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:42:59.577863] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.577863] [0x00004578] [debug]   frame 114
+[2022-11-24 14:42:59.577863] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\115.jpg
+[2022-11-24 14:42:59.597405] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\115.jpg (encoded in sRGB colorspace).
+[114/270] (114/270)
+[2022-11-24 14:42:59.653528] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:59.653528] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.653528] [0x00004578] [debug]   frame 115
+[2022-11-24 14:42:59.653528] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\116.jpg
+[2022-11-24 14:42:59.673864] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\116.jpg (encoded in sRGB colorspace).
+[115/270] (115/270)
+[2022-11-24 14:42:59.729713] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:42:59.729713] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.729713] [0x00004578] [debug]   frame 116
+[2022-11-24 14:42:59.729713] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\117.jpg
+[2022-11-24 14:42:59.750831] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\117.jpg (encoded in sRGB colorspace).
+[116/270] (116/270)
+[2022-11-24 14:42:59.806235] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:42:59.807453] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.807453] [0x00004578] [debug]   frame 117
+[2022-11-24 14:42:59.807453] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\118.jpg
+[2022-11-24 14:42:59.827052] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\118.jpg (encoded in sRGB colorspace).
+[117/270] (117/270)
+[2022-11-24 14:42:59.877285] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:42:59.877285] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:42:59.877285] [0x00004578] [debug]   frame 118
+[2022-11-24 14:42:59.877285] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\119.jpg
+[2022-11-24 14:42:59.902901] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\119.jpg (encoded in sRGB colorspace).
+[118/270] (118/270)
+[2022-11-24 14:42:59.953551] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:42:59.953551] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:42:59.953551] [0x00004578] [debug]   frame 119
+[2022-11-24 14:42:59.953551] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\120.jpg
+[2022-11-24 14:42:59.979569] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\120.jpg (encoded in sRGB colorspace).
+[119/270] (119/270)
+[2022-11-24 14:43:00.034999] [0x00004578] [debug]   Find chessboard corners' duration: 0.035
+[2022-11-24 14:43:00.042315] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:00.042315] [0x00004578] [debug]   frame 120
+[2022-11-24 14:43:00.042315] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\121.jpg
+[2022-11-24 14:43:00.063731] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\121.jpg (encoded in sRGB colorspace).
+[120/270] (120/270)
+[2022-11-24 14:43:00.119228] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:43:00.119228] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:00.119228] [0x00004578] [debug]   frame 121
+[2022-11-24 14:43:00.119228] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\122.jpg
+[2022-11-24 14:43:00.146668] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\122.jpg (encoded in sRGB colorspace).
+[121/270] (121/270)
+[2022-11-24 14:43:00.201855] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:43:00.201855] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.201855] [0x00004578] [debug]   frame 122
+[2022-11-24 14:43:00.201855] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\123.jpg
+[2022-11-24 14:43:00.227413] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\123.jpg (encoded in sRGB colorspace).
+[122/270] (122/270)
+[2022-11-24 14:43:00.290465] [0x00004578] [debug]   Find chessboard corners' duration: 0.035
+[2022-11-24 14:43:00.291463] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.291463] [0x00004578] [debug]   frame 123
+[2022-11-24 14:43:00.291463] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\124.jpg
+[2022-11-24 14:43:00.318469] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\124.jpg (encoded in sRGB colorspace).
+[123/270] (123/270)
+[2022-11-24 14:43:00.383464] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:43:00.384464] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.384464] [0x00004578] [debug]   frame 124
+[2022-11-24 14:43:00.384464] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\125.jpg
+[2022-11-24 14:43:00.410462] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\125.jpg (encoded in sRGB colorspace).
+[124/270] (124/270)
+[2022-11-24 14:43:00.463463] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:00.463463] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:00.463463] [0x00004578] [debug]   frame 125
+[2022-11-24 14:43:00.463463] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\126.jpg
+[2022-11-24 14:43:00.487460] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\126.jpg (encoded in sRGB colorspace).
+[125/270] (125/270)
+[2022-11-24 14:43:00.534461] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:00.535460] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.535460] [0x00004578] [debug]   frame 126
+[2022-11-24 14:43:00.535460] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\127.jpg
+[2022-11-24 14:43:00.555460] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\127.jpg (encoded in sRGB colorspace).
+[126/270] (126/270)
+[2022-11-24 14:43:00.591203] [0x00004578] [debug]   Find chessboard corners' duration: 0.019
+[2022-11-24 14:43:00.591203] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.591203] [0x00004578] [debug]   frame 127
+[2022-11-24 14:43:00.591203] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\128.jpg
+[2022-11-24 14:43:00.615873] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\128.jpg (encoded in sRGB colorspace).
+[127/270] (127/270)
+[2022-11-24 14:43:00.661164] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:43:00.661164] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:00.661164] [0x00004578] [debug]   frame 128
+[2022-11-24 14:43:00.667199] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\129.jpg
+[2022-11-24 14:43:00.688712] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\129.jpg (encoded in sRGB colorspace).
+[128/270] (128/270)
+[2022-11-24 14:43:00.744839] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:43:00.744839] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.744839] [0x00004578] [debug]   frame 129
+[2022-11-24 14:43:00.744839] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\130.jpg
+[2022-11-24 14:43:00.764908] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\130.jpg (encoded in sRGB colorspace).
+[129/270] (129/270)
+[2022-11-24 14:43:00.820353] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:43:00.821353] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.821353] [0x00004578] [debug]   frame 130
+[2022-11-24 14:43:00.821498] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\131.jpg
+[2022-11-24 14:43:00.843727] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\131.jpg (encoded in sRGB colorspace).
+[130/270] (130/270)
+[2022-11-24 14:43:00.899092] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:43:00.899092] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.899092] [0x00004578] [debug]   frame 131
+[2022-11-24 14:43:00.902763] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\132.jpg
+[2022-11-24 14:43:00.925088] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\132.jpg (encoded in sRGB colorspace).
+[131/270] (131/270)
+[2022-11-24 14:43:00.982370] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:43:00.982370] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:00.982370] [0x00004578] [debug]   frame 132
+[2022-11-24 14:43:00.982370] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\133.jpg
+[2022-11-24 14:43:01.015106] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\133.jpg (encoded in sRGB colorspace).
+[132/270] (132/270)
+[2022-11-24 14:43:01.056218] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:01.056218] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.056218] [0x00004578] [debug]   frame 133
+[2022-11-24 14:43:01.056218] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\134.jpg
+[2022-11-24 14:43:01.077214] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\134.jpg (encoded in sRGB colorspace).
+[133/270] (133/270)
+[2022-11-24 14:43:01.113214] [0x00004578] [debug]   Find chessboard corners' duration: 0.019
+[2022-11-24 14:43:01.114216] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.114216] [0x00004578] [debug]   frame 134
+[2022-11-24 14:43:01.114216] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\135.jpg
+[2022-11-24 14:43:01.134214] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\135.jpg (encoded in sRGB colorspace).
+[134/270] (134/270)
+[2022-11-24 14:43:01.167254] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.168253] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.168253] [0x00004578] [debug]   frame 135
+[2022-11-24 14:43:01.168253] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\136.jpg
+[2022-11-24 14:43:01.189224] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\136.jpg (encoded in sRGB colorspace).
+[135/270] (135/270)
+[2022-11-24 14:43:01.221216] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.222214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.222214] [0x00004578] [debug]   frame 136
+[2022-11-24 14:43:01.222214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\137.jpg
+[2022-11-24 14:43:01.243215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\137.jpg (encoded in sRGB colorspace).
+[136/270] (136/270)
+[2022-11-24 14:43:01.275214] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.275214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.275214] [0x00004578] [debug]   frame 137
+[2022-11-24 14:43:01.276217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\138.jpg
+[2022-11-24 14:43:01.295214] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\138.jpg (encoded in sRGB colorspace).
+[137/270] (137/270)
+[2022-11-24 14:43:01.327252] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.328252] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.328252] [0x00004578] [debug]   frame 138
+[2022-11-24 14:43:01.328252] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\139.jpg
+[2022-11-24 14:43:01.348260] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\139.jpg (encoded in sRGB colorspace).
+[138/270] (138/270)
+[2022-11-24 14:43:01.387219] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.387219] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.387219] [0x00004578] [debug]   frame 139
+[2022-11-24 14:43:01.387219] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\140.jpg
+[2022-11-24 14:43:01.409267] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\140.jpg (encoded in sRGB colorspace).
+[139/270] (139/270)
+[2022-11-24 14:43:01.443218] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.443218] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.443218] [0x00004578] [debug]   frame 140
+[2022-11-24 14:43:01.444254] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\141.jpg
+[2022-11-24 14:43:01.464244] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\141.jpg (encoded in sRGB colorspace).
+[140/270] (140/270)
+[2022-11-24 14:43:01.497214] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.498214] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.498214] [0x00004578] [debug]   frame 141
+[2022-11-24 14:43:01.498214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\142.jpg
+[2022-11-24 14:43:01.519215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\142.jpg (encoded in sRGB colorspace).
+[141/270] (141/270)
+[2022-11-24 14:43:01.557214] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.557214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.557214] [0x00004578] [debug]   frame 142
+[2022-11-24 14:43:01.557214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\143.jpg
+[2022-11-24 14:43:01.578284] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\143.jpg (encoded in sRGB colorspace).
+[142/270] (142/270)
+[2022-11-24 14:43:01.611217] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:01.611217] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.611217] [0x00004578] [debug]   frame 143
+[2022-11-24 14:43:01.611217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\144.jpg
+[2022-11-24 14:43:01.631251] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\144.jpg (encoded in sRGB colorspace).
+[143/270] (143/270)
+[2022-11-24 14:43:01.661217] [0x00004578] [debug]   Find chessboard corners' duration: 0.016
+[2022-11-24 14:43:01.662219] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.662219] [0x00004578] [debug]   frame 144
+[2022-11-24 14:43:01.662219] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\145.jpg
+[2022-11-24 14:43:01.682243] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\145.jpg (encoded in sRGB colorspace).
+[144/270] (144/270)
+[2022-11-24 14:43:01.714216] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.714216] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.714216] [0x00004578] [debug]   frame 145
+[2022-11-24 14:43:01.714216] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\146.jpg
+[2022-11-24 14:43:01.734300] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\146.jpg (encoded in sRGB colorspace).
+[145/270] (145/270)
+[2022-11-24 14:43:01.766253] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.766253] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.767252] [0x00004578] [debug]   frame 146
+[2022-11-24 14:43:01.767252] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\147.jpg
+[2022-11-24 14:43:01.787283] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\147.jpg (encoded in sRGB colorspace).
+[146/270] (146/270)
+[2022-11-24 14:43:01.819217] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.820217] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.820217] [0x00004578] [debug]   frame 147
+[2022-11-24 14:43:01.820217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\148.jpg
+[2022-11-24 14:43:01.840224] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\148.jpg (encoded in sRGB colorspace).
+[147/270] (147/270)
+[2022-11-24 14:43:01.871251] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.871251] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:01.871251] [0x00004578] [debug]   frame 148
+[2022-11-24 14:43:01.872257] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\149.jpg
+[2022-11-24 14:43:01.892261] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\149.jpg (encoded in sRGB colorspace).
+[148/270] (148/270)
+[2022-11-24 14:43:01.922218] [0x00004578] [debug]   Find chessboard corners' duration: 0.016
+[2022-11-24 14:43:01.923253] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.923253] [0x00004578] [debug]   frame 149
+[2022-11-24 14:43:01.923253] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\150.jpg
+[2022-11-24 14:43:01.943215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\150.jpg (encoded in sRGB colorspace).
+[149/270] (149/270)
+[2022-11-24 14:43:01.975253] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:01.976253] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:01.976253] [0x00004578] [debug]   frame 150
+[2022-11-24 14:43:01.976253] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\151.jpg
+[2022-11-24 14:43:01.997216] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\151.jpg (encoded in sRGB colorspace).
+[150/270] (150/270)
+[2022-11-24 14:43:02.030213] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:02.030213] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.030213] [0x00004578] [debug]   frame 151
+[2022-11-24 14:43:02.030213] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\152.jpg
+[2022-11-24 14:43:02.052248] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\152.jpg (encoded in sRGB colorspace).
+[151/270] (151/270)
+[2022-11-24 14:43:02.084218] [0x00004578] [debug]   Find chessboard corners' duration: 0.016
+[2022-11-24 14:43:02.085217] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.085217] [0x00004578] [debug]   frame 152
+[2022-11-24 14:43:02.085217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\153.jpg
+[2022-11-24 14:43:02.105215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\153.jpg (encoded in sRGB colorspace).
+[152/270] (152/270)
+[2022-11-24 14:43:02.137219] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:02.138257] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.138257] [0x00004578] [debug]   frame 153
+[2022-11-24 14:43:02.138257] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\154.jpg
+[2022-11-24 14:43:02.158217] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\154.jpg (encoded in sRGB colorspace).
+[153/270] (153/270)
+[2022-11-24 14:43:02.192276] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:02.192276] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.192276] [0x00004578] [debug]   frame 154
+[2022-11-24 14:43:02.192276] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\155.jpg
+[2022-11-24 14:43:02.212251] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\155.jpg (encoded in sRGB colorspace).
+[154/270] (154/270)
+[2022-11-24 14:43:02.244213] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:02.245228] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.245228] [0x00004578] [debug]   frame 155
+[2022-11-24 14:43:02.245228] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\156.jpg
+[2022-11-24 14:43:02.265215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\156.jpg (encoded in sRGB colorspace).
+[155/270] (155/270)
+[2022-11-24 14:43:02.299213] [0x00004578] [debug]   Find chessboard corners' duration: 0.017
+[2022-11-24 14:43:02.299213] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.299213] [0x00004578] [debug]   frame 156
+[2022-11-24 14:43:02.299213] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\157.jpg
+[2022-11-24 14:43:02.320217] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\157.jpg (encoded in sRGB colorspace).
+[156/270] (156/270)
+[2022-11-24 14:43:02.353242] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:02.353242] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.353242] [0x00004578] [debug]   frame 157
+[2022-11-24 14:43:02.353242] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\158.jpg
+[2022-11-24 14:43:02.374216] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\158.jpg (encoded in sRGB colorspace).
+[157/270] (157/270)
+[2022-11-24 14:43:02.412256] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:02.413218] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.413218] [0x00004578] [debug]   frame 158
+[2022-11-24 14:43:02.413218] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\174.jpg
+[2022-11-24 14:43:02.438308] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\174.jpg (encoded in sRGB colorspace).
+[158/270] (158/270)
+[2022-11-24 14:43:02.501243] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:43:02.502240] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.502240] [0x00004578] [debug]   frame 159
+[2022-11-24 14:43:02.502240] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\175.jpg
+[2022-11-24 14:43:02.529260] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\175.jpg (encoded in sRGB colorspace).
+[159/270] (159/270)
+[2022-11-24 14:43:02.579218] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:43:02.580217] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.580217] [0x00004578] [debug]   frame 160
+[2022-11-24 14:43:02.580217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\176.jpg
+[2022-11-24 14:43:02.600215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\176.jpg (encoded in sRGB colorspace).
+[160/270] (160/270)
+[2022-11-24 14:43:02.634214] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:02.634214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.634214] [0x00004578] [debug]   frame 161
+[2022-11-24 14:43:02.635214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\177.jpg
+[2022-11-24 14:43:02.654213] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\177.jpg (encoded in sRGB colorspace).
+[161/270] (161/270)
+[2022-11-24 14:43:02.752216] [0x00004578] [debug]   Find chessboard corners' duration: 0.082
+[2022-11-24 14:43:02.753216] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.753216] [0x00004578] [debug]   frame 162
+[2022-11-24 14:43:02.753216] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\178.jpg
+[2022-11-24 14:43:02.773252] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\178.jpg (encoded in sRGB colorspace).
+[162/270] (162/270)
+[2022-11-24 14:43:02.806252] [0x00004578] [debug]   Find chessboard corners' duration: 0.018
+[2022-11-24 14:43:02.806252] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.806252] [0x00004578] [debug]   frame 163
+[2022-11-24 14:43:02.806252] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\179.jpg
+[2022-11-24 14:43:02.826215] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\179.jpg (encoded in sRGB colorspace).
+[163/270] (163/270)
+[2022-11-24 14:43:02.861217] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:02.862217] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:02.862217] [0x00004578] [debug]   frame 164
+[2022-11-24 14:43:02.862217] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\180.jpg
+[2022-11-24 14:43:02.882226] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\180.jpg (encoded in sRGB colorspace).
+[164/270] (164/270)
+[2022-11-24 14:43:02.918214] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:02.918214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.918214] [0x00004578] [debug]   frame 165
+[2022-11-24 14:43:02.919214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\181.jpg
+[2022-11-24 14:43:02.938213] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\181.jpg (encoded in sRGB colorspace).
+[165/270] (165/270)
+[2022-11-24 14:43:02.975254] [0x00004578] [debug]   Find chessboard corners' duration: 0.022
+[2022-11-24 14:43:02.975254] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:02.975254] [0x00004578] [debug]   frame 166
+[2022-11-24 14:43:02.976251] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\182.jpg
+[2022-11-24 14:43:02.996214] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\182.jpg (encoded in sRGB colorspace).
+[166/270] (166/270)
+[2022-11-24 14:43:03.032214] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:03.032214] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.032214] [0x00004578] [debug]   frame 167
+[2022-11-24 14:43:03.032214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\183.jpg
+[2022-11-24 14:43:03.052214] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\183.jpg (encoded in sRGB colorspace).
+[167/270] (167/270)
+[2022-11-24 14:43:03.155347] [0x00004578] [debug]   Find chessboard corners' duration: 0.088
+[2022-11-24 14:43:03.155347] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.155347] [0x00004578] [debug]   frame 168
+[2022-11-24 14:43:03.155347] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\184.jpg
+[2022-11-24 14:43:03.182228] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\184.jpg (encoded in sRGB colorspace).
+[168/270] (168/270)
+[2022-11-24 14:43:03.314575] [0x00004578] [debug]   Find chessboard corners' duration: 0.112
+[2022-11-24 14:43:03.314575] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:03.314575] [0x00004578] [debug]   frame 169
+[2022-11-24 14:43:03.314575] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\185.jpg
+[2022-11-24 14:43:03.343203] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\185.jpg (encoded in sRGB colorspace).
+[169/270] (169/270)
+[2022-11-24 14:43:03.473480] [0x00004578] [debug]   Find chessboard corners' duration: 0.113
+[2022-11-24 14:43:03.473480] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:03.473480] [0x00004578] [debug]   frame 170
+[2022-11-24 14:43:03.473480] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\186.jpg
+[2022-11-24 14:43:03.501281] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\186.jpg (encoded in sRGB colorspace).
+[170/270] (170/270)
+[2022-11-24 14:43:03.542884] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:43:03.549868] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.549868] [0x00004578] [debug]   frame 171
+[2022-11-24 14:43:03.549868] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\187.jpg
+[2022-11-24 14:43:03.570448] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\187.jpg (encoded in sRGB colorspace).
+[171/270] (171/270)
+[2022-11-24 14:43:03.626702] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:43:03.626702] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.626702] [0x00004578] [debug]   frame 172
+[2022-11-24 14:43:03.626702] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\188.jpg
+[2022-11-24 14:43:03.647368] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\188.jpg (encoded in sRGB colorspace).
+[172/270] (172/270)
+[2022-11-24 14:43:03.703529] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:43:03.703529] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.703529] [0x00004578] [debug]   frame 173
+[2022-11-24 14:43:03.703529] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\189.jpg
+[2022-11-24 14:43:03.723778] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\189.jpg (encoded in sRGB colorspace).
+[173/270] (173/270)
+[2022-11-24 14:43:03.779498] [0x00004578] [debug]   Find chessboard corners' duration: 0.031
+[2022-11-24 14:43:03.779498] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.779498] [0x00004578] [debug]   frame 174
+[2022-11-24 14:43:03.779498] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\190.jpg
+[2022-11-24 14:43:03.806852] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\190.jpg (encoded in sRGB colorspace).
+[174/270] (174/270)
+[2022-11-24 14:43:03.869527] [0x00004578] [debug]   Find chessboard corners' duration: 0.04
+[2022-11-24 14:43:03.869527] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:03.869527] [0x00004578] [debug]   frame 175
+[2022-11-24 14:43:03.869527] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\200.jpg
+[2022-11-24 14:43:03.897684] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\200.jpg (encoded in sRGB colorspace).
+[175/270] (175/270)
+[2022-11-24 14:43:03.953054] [0x00004578] [debug]   Find chessboard corners' duration: 0.037
+[2022-11-24 14:43:03.953054] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:03.953054] [0x00004578] [debug]   frame 176
+[2022-11-24 14:43:03.959060] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\201.jpg
+[2022-11-24 14:43:03.981428] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\201.jpg (encoded in sRGB colorspace).
+[176/270] (176/270)
+[2022-11-24 14:43:04.043090] [0x00004578] [debug]   Find chessboard corners' duration: 0.038
+[2022-11-24 14:43:04.043090] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:04.043090] [0x00004578] [debug]   frame 177
+[2022-11-24 14:43:04.043090] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\202.jpg
+[2022-11-24 14:43:04.070803] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\202.jpg (encoded in sRGB colorspace).
+[177/270] (177/270)
+[2022-11-24 14:43:04.147136] [0x00004578] [debug]   Find chessboard corners' duration: 0.041
+[2022-11-24 14:43:04.148155] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.148155] [0x00004578] [debug]   frame 178
+[2022-11-24 14:43:04.148155] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\203.jpg
+[2022-11-24 14:43:04.169796] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\203.jpg (encoded in sRGB colorspace).
+[178/270] (178/270)
+[2022-11-24 14:43:04.245858] [0x00004578] [debug]   Find chessboard corners' duration: 0.046
+[2022-11-24 14:43:04.245858] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.245858] [0x00004578] [debug]   frame 179
+[2022-11-24 14:43:04.245858] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\204.jpg
+[2022-11-24 14:43:04.274053] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\204.jpg (encoded in sRGB colorspace).
+[179/270] (179/270)
+[2022-11-24 14:43:04.356336] [0x00004578] [debug]   Find chessboard corners' duration: 0.051
+[2022-11-24 14:43:04.356336] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.356336] [0x00004578] [debug]   frame 180
+[2022-11-24 14:43:04.356336] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\205.jpg
+[2022-11-24 14:43:04.392323] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\205.jpg (encoded in sRGB colorspace).
+[180/270] (180/270)
+[2022-11-24 14:43:04.466991] [0x00004578] [debug]   Find chessboard corners' duration: 0.039
+[2022-11-24 14:43:04.466991] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.466991] [0x00004578] [debug]   frame 181
+[2022-11-24 14:43:04.466991] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\206.jpg
+[2022-11-24 14:43:04.487855] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\206.jpg (encoded in sRGB colorspace).
+[181/270] (181/270)
+[2022-11-24 14:43:04.555982] [0x00004578] [debug]   Find chessboard corners' duration: 0.041
+[2022-11-24 14:43:04.555982] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.556988] [0x00004578] [debug]   frame 182
+[2022-11-24 14:43:04.557099] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\222.jpg
+[2022-11-24 14:43:04.577034] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\222.jpg (encoded in sRGB colorspace).
+[182/270] (182/270)
+[2022-11-24 14:43:04.640704] [0x00004578] [debug]   Find chessboard corners' duration: 0.034
+[2022-11-24 14:43:04.640704] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.640704] [0x00004578] [debug]   frame 183
+[2022-11-24 14:43:04.640704] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\223.jpg
+[2022-11-24 14:43:04.667941] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\223.jpg (encoded in sRGB colorspace).
+[183/270] (183/270)
+[2022-11-24 14:43:04.744101] [0x00004578] [debug]   Find chessboard corners' duration: 0.043
+[2022-11-24 14:43:04.744101] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:04.744101] [0x00004578] [debug]   frame 184
+[2022-11-24 14:43:04.744101] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\224.jpg
+[2022-11-24 14:43:04.764641] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\224.jpg (encoded in sRGB colorspace).
+[184/270] (184/270)
+[2022-11-24 14:43:04.827071] [0x00004578] [debug]   Find chessboard corners' duration: 0.04
+[2022-11-24 14:43:04.827071] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:04.827071] [0x00004578] [debug]   frame 185
+[2022-11-24 14:43:04.827071] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\225.jpg
+[2022-11-24 14:43:04.858198] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\225.jpg (encoded in sRGB colorspace).
+[185/270] (185/270)
+[2022-11-24 14:43:04.932729] [0x00004578] [debug]   Find chessboard corners' duration: 0.028
+[2022-11-24 14:43:04.932729] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:04.932729] [0x00004578] [debug]   frame 186
+[2022-11-24 14:43:04.932729] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\226.jpg
+[2022-11-24 14:43:04.958684] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\226.jpg (encoded in sRGB colorspace).
+[186/270] (186/270)
+[2022-11-24 14:43:05.007773] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:43:05.007773] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.007773] [0x00004578] [debug]   frame 187
+[2022-11-24 14:43:05.007773] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\227.jpg
+[2022-11-24 14:43:05.028184] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\227.jpg (encoded in sRGB colorspace).
+[187/270] (187/270)
+[2022-11-24 14:43:05.070814] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:05.077639] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.077639] [0x00004578] [debug]   frame 188
+[2022-11-24 14:43:05.077639] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\228.jpg
+[2022-11-24 14:43:05.098058] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\228.jpg (encoded in sRGB colorspace).
+[188/270] (188/270)
+[2022-11-24 14:43:05.157209] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:43:05.157209] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:05.157209] [0x00004578] [debug]   frame 189
+[2022-11-24 14:43:05.157209] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\229.jpg
+[2022-11-24 14:43:05.180952] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\229.jpg (encoded in sRGB colorspace).
+[189/270] (189/270)
+[2022-11-24 14:43:05.224190] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:05.230350] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.230350] [0x00004578] [debug]   frame 190
+[2022-11-24 14:43:05.230350] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\230.jpg
+[2022-11-24 14:43:05.250411] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\230.jpg (encoded in sRGB colorspace).
+[190/270] (190/270)
+[2022-11-24 14:43:05.299955] [0x00004578] [debug]   Find chessboard corners' duration: 0.03
+[2022-11-24 14:43:05.299955] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.299955] [0x00004578] [debug]   frame 191
+[2022-11-24 14:43:05.299955] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\231.jpg
+[2022-11-24 14:43:05.326686] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\231.jpg (encoded in sRGB colorspace).
+[191/270] (191/270)
+[2022-11-24 14:43:05.383269] [0x00004578] [debug]   Find chessboard corners' duration: 0.032
+[2022-11-24 14:43:05.383269] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.383269] [0x00004578] [debug]   frame 192
+[2022-11-24 14:43:05.383269] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\232.jpg
+[2022-11-24 14:43:05.403529] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\232.jpg (encoded in sRGB colorspace).
+[192/270] (192/270)
+[2022-11-24 14:43:05.459311] [0x00004578] [debug]   Find chessboard corners' duration: 0.027
+[2022-11-24 14:43:05.459311] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.459311] [0x00004578] [debug]   frame 193
+[2022-11-24 14:43:05.459311] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\233.jpg
+[2022-11-24 14:43:05.486528] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\233.jpg (encoded in sRGB colorspace).
+[193/270] (193/270)
+[2022-11-24 14:43:05.545983] [0x00004578] [debug]   Find chessboard corners' duration: 0.036
+[2022-11-24 14:43:05.550297] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.551290] [0x00004578] [debug]   frame 194
+[2022-11-24 14:43:05.551290] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\234.jpg
+[2022-11-24 14:43:05.569527] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\234.jpg (encoded in sRGB colorspace).
+[194/270] (194/270)
+[2022-11-24 14:43:05.612103] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:05.612103] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.612103] [0x00004578] [debug]   frame 195
+[2022-11-24 14:43:05.612103] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\235.jpg
+[2022-11-24 14:43:05.632129] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\235.jpg (encoded in sRGB colorspace).
+[195/270] (195/270)
+[2022-11-24 14:43:05.674931] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:05.680589] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.680701] [0x00004578] [debug]   frame 196
+[2022-11-24 14:43:05.680701] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\236.jpg
+[2022-11-24 14:43:05.701448] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\236.jpg (encoded in sRGB colorspace).
+[196/270] (196/270)
+[2022-11-24 14:43:05.743644] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:05.743644] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.743644] [0x00004578] [debug]   frame 197
+[2022-11-24 14:43:05.743644] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\237.jpg
+[2022-11-24 14:43:05.764359] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\237.jpg (encoded in sRGB colorspace).
+[197/270] (197/270)
+[2022-11-24 14:43:05.813079] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:05.813079] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:05.813079] [0x00004578] [debug]   frame 198
+[2022-11-24 14:43:05.813079] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\238.jpg
+[2022-11-24 14:43:05.833585] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\238.jpg (encoded in sRGB colorspace).
+[198/270] (198/270)
+[2022-11-24 14:43:05.883379] [0x00004578] [debug]   Find chessboard corners' duration: 0.029
+[2022-11-24 14:43:05.883379] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:05.883379] [0x00004578] [debug]   frame 199
+[2022-11-24 14:43:05.883379] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\239.jpg
+[2022-11-24 14:43:05.902896] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\239.jpg (encoded in sRGB colorspace).
+[199/270] (199/270)
+[2022-11-24 14:43:05.945781] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:05.951572] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:05.951572] [0x00004578] [debug]   frame 200
+[2022-11-24 14:43:05.951572] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\240.jpg
+[2022-11-24 14:43:05.972521] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\240.jpg (encoded in sRGB colorspace).
+[200/270] (200/270)
+[2022-11-24 14:43:06.021775] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:43:06.021775] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.021775] [0x00004578] [debug]   frame 201
+[2022-11-24 14:43:06.021775] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\241.jpg
+[2022-11-24 14:43:06.042929] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\241.jpg (encoded in sRGB colorspace).
+[201/270] (201/270)
+[2022-11-24 14:43:06.091285] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:06.097466] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.097466] [0x00004578] [debug]   frame 202
+[2022-11-24 14:43:06.097466] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\242.jpg
+[2022-11-24 14:43:06.118172] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\242.jpg (encoded in sRGB colorspace).
+[202/270] (202/270)
+[2022-11-24 14:43:06.160474] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:06.160474] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.160474] [0x00004578] [debug]   frame 203
+[2022-11-24 14:43:06.160474] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\243.jpg
+[2022-11-24 14:43:06.180681] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\243.jpg (encoded in sRGB colorspace).
+[203/270] (203/270)
+[2022-11-24 14:43:06.228794] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:06.228794] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.228794] [0x00004578] [debug]   frame 204
+[2022-11-24 14:43:06.228794] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\244.jpg
+[2022-11-24 14:43:06.252539] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\244.jpg (encoded in sRGB colorspace).
+[204/270] (204/270)
+[2022-11-24 14:43:06.292921] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:06.292921] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.292921] [0x00004578] [debug]   frame 205
+[2022-11-24 14:43:06.292921] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\245.jpg
+[2022-11-24 14:43:06.312590] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\245.jpg (encoded in sRGB colorspace).
+[205/270] (205/270)
+[2022-11-24 14:43:06.361722] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:43:06.361722] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.361722] [0x00004578] [debug]   frame 206
+[2022-11-24 14:43:06.361722] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\246.jpg
+[2022-11-24 14:43:06.382035] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\246.jpg (encoded in sRGB colorspace).
+[206/270] (206/270)
+[2022-11-24 14:43:06.423979] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:06.430488] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.430488] [0x00004578] [debug]   frame 207
+[2022-11-24 14:43:06.430589] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\247.jpg
+[2022-11-24 14:43:06.451467] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\247.jpg (encoded in sRGB colorspace).
+[207/270] (207/270)
+[2022-11-24 14:43:06.493599] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:43:06.493599] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.493599] [0x00004578] [debug]   frame 208
+[2022-11-24 14:43:06.493599] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\248.jpg
+[2022-11-24 14:43:06.513965] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\248.jpg (encoded in sRGB colorspace).
+[208/270] (208/270)
+[2022-11-24 14:43:06.563059] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:06.563059] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.563059] [0x00004578] [debug]   frame 209
+[2022-11-24 14:43:06.563059] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\249.jpg
+[2022-11-24 14:43:06.583598] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\249.jpg (encoded in sRGB colorspace).
+[209/270] (209/270)
+[2022-11-24 14:43:06.632136] [0x00004578] [debug]   Find chessboard corners' duration: 0.026
+[2022-11-24 14:43:06.632136] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.632136] [0x00004578] [debug]   frame 210
+[2022-11-24 14:43:06.632136] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\250.jpg
+[2022-11-24 14:43:06.652875] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\250.jpg (encoded in sRGB colorspace).
+[210/270] (210/270)
+[2022-11-24 14:43:06.700357] [0x00004578] [debug]   Find chessboard corners' duration: 0.025
+[2022-11-24 14:43:06.700357] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.700357] [0x00004578] [debug]   frame 211
+[2022-11-24 14:43:06.701357] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\251.jpg
+[2022-11-24 14:43:06.724358] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\251.jpg (encoded in sRGB colorspace).
+[211/270] (211/270)
+[2022-11-24 14:43:06.764502] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:06.764502] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.764502] [0x00004578] [debug]   frame 212
+[2022-11-24 14:43:06.764502] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\252.jpg
+[2022-11-24 14:43:06.784815] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\252.jpg (encoded in sRGB colorspace).
+[212/270] (212/270)
+[2022-11-24 14:43:06.827160] [0x00004578] [debug]   Find chessboard corners' duration: 0.022
+[2022-11-24 14:43:06.827160] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.827160] [0x00004578] [debug]   frame 213
+[2022-11-24 14:43:06.827160] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\253.jpg
+[2022-11-24 14:43:06.847340] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\253.jpg (encoded in sRGB colorspace).
+[213/270] (213/270)
+[2022-11-24 14:43:06.889778] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:06.889778] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:06.889778] [0x00004578] [debug]   frame 214
+[2022-11-24 14:43:06.889778] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\254.jpg
+[2022-11-24 14:43:06.909819] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\254.jpg (encoded in sRGB colorspace).
+[214/270] (214/270)
+[2022-11-24 14:43:06.953032] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:06.953032] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:06.953032] [0x00004578] [debug]   frame 215
+[2022-11-24 14:43:06.953032] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\255.jpg
+[2022-11-24 14:43:06.979407] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\255.jpg (encoded in sRGB colorspace).
+[215/270] (215/270)
+[2022-11-24 14:43:07.015031] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:07.015031] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.015031] [0x00004578] [debug]   frame 216
+[2022-11-24 14:43:07.015031] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\256.jpg
+[2022-11-24 14:43:07.041772] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\256.jpg (encoded in sRGB colorspace).
+[216/270] (216/270)
+[2022-11-24 14:43:07.083915] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:07.083915] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.083915] [0x00004578] [debug]   frame 217
+[2022-11-24 14:43:07.083915] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\257.jpg
+[2022-11-24 14:43:07.104282] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\257.jpg (encoded in sRGB colorspace).
+[217/270] (217/270)
+[2022-11-24 14:43:07.153213] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:07.153213] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:07.153213] [0x00004578] [debug]   frame 218
+[2022-11-24 14:43:07.153213] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\258.jpg
+[2022-11-24 14:43:07.173893] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\258.jpg (encoded in sRGB colorspace).
+[218/270] (218/270)
+[2022-11-24 14:43:07.209674] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:07.209674] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.209674] [0x00004578] [debug]   frame 219
+[2022-11-24 14:43:07.209674] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\259.jpg
+[2022-11-24 14:43:07.236201] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\259.jpg (encoded in sRGB colorspace).
+[219/270] (219/270)
+[2022-11-24 14:43:07.277898] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:07.278002] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:07.278002] [0x00004578] [debug]   frame 220
+[2022-11-24 14:43:07.278002] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\260.jpg
+[2022-11-24 14:43:07.298848] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\260.jpg (encoded in sRGB colorspace).
+[220/270] (220/270)
+[2022-11-24 14:43:07.341009] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:07.341009] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.341009] [0x00004578] [debug]   frame 221
+[2022-11-24 14:43:07.341009] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\261.jpg
+[2022-11-24 14:43:07.361651] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\261.jpg (encoded in sRGB colorspace).
+[221/270] (221/270)
+[2022-11-24 14:43:07.404315] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:07.404315] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:07.404315] [0x00004578] [debug]   frame 222
+[2022-11-24 14:43:07.404315] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\262.jpg
+[2022-11-24 14:43:07.430584] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\262.jpg (encoded in sRGB colorspace).
+[222/270] (222/270)
+[2022-11-24 14:43:07.474214] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:07.474214] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:07.474214] [0x00004578] [debug]   frame 223
+[2022-11-24 14:43:07.474214] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\263.jpg
+[2022-11-24 14:43:07.493208] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\263.jpg (encoded in sRGB colorspace).
+[223/270] (223/270)
+[2022-11-24 14:43:07.536140] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:07.536140] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.536140] [0x00004578] [debug]   frame 224
+[2022-11-24 14:43:07.542109] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\264.jpg
+[2022-11-24 14:43:07.562849] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\264.jpg (encoded in sRGB colorspace).
+[224/270] (224/270)
+[2022-11-24 14:43:07.598670] [0x00004578] [debug]   Find chessboard corners' duration: 0.02
+[2022-11-24 14:43:07.604753] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.604753] [0x00004578] [debug]   frame 225
+[2022-11-24 14:43:07.604753] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\265.jpg
+[2022-11-24 14:43:07.625179] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\265.jpg (encoded in sRGB colorspace).
+[225/270] (225/270)
+[2022-11-24 14:43:07.667515] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:07.667515] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.667515] [0x00004578] [debug]   frame 226
+[2022-11-24 14:43:07.667515] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\266.jpg
+[2022-11-24 14:43:07.687683] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\266.jpg (encoded in sRGB colorspace).
+[226/270] (226/270)
+[2022-11-24 14:43:07.737459] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:07.737459] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.737459] [0x00004578] [debug]   frame 227
+[2022-11-24 14:43:07.737459] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\267.jpg
+[2022-11-24 14:43:07.757060] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\267.jpg (encoded in sRGB colorspace).
+[227/270] (227/270)
+[2022-11-24 14:43:07.799318] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:07.799318] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.799318] [0x00004578] [debug]   frame 228
+[2022-11-24 14:43:07.799318] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\268.jpg
+[2022-11-24 14:43:07.819856] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\268.jpg (encoded in sRGB colorspace).
+[228/270] (228/270)
+[2022-11-24 14:43:07.868565] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:07.868686] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:07.868686] [0x00004578] [debug]   frame 229
+[2022-11-24 14:43:07.868686] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\269.jpg
+[2022-11-24 14:43:07.889016] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\269.jpg (encoded in sRGB colorspace).
+[229/270] (229/270)
+[2022-11-24 14:43:07.933464] [0x00004578] [debug]   Find chessboard corners' duration: 0.022
+[2022-11-24 14:43:07.933464] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:07.933464] [0x00004578] [debug]   frame 230
+[2022-11-24 14:43:07.933464] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\270.jpg
+[2022-11-24 14:43:07.958648] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\270.jpg (encoded in sRGB colorspace).
+[230/270] (230/270)
+[2022-11-24 14:43:08.002189] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:08.002189] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:08.002189] [0x00004578] [debug]   frame 231
+[2022-11-24 14:43:08.002189] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\271.jpg
+[2022-11-24 14:43:08.023340] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\271.jpg (encoded in sRGB colorspace).
+[231/270] (231/270)
+[2022-11-24 14:43:08.071218] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:08.071218] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.071218] [0x00004578] [debug]   frame 232
+[2022-11-24 14:43:08.071218] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\272.jpg
+[2022-11-24 14:43:08.090424] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\272.jpg (encoded in sRGB colorspace).
+[232/270] (232/270)
+[2022-11-24 14:43:08.140699] [0x00004578] [debug]   Find chessboard corners' duration: 0.022
+[2022-11-24 14:43:08.140699] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.140699] [0x00004578] [debug]   frame 233
+[2022-11-24 14:43:08.140699] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\273.jpg
+[2022-11-24 14:43:08.166830] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\273.jpg (encoded in sRGB colorspace).
+[233/270] (233/270)
+[2022-11-24 14:43:08.210293] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:08.210293] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.210293] [0x00004578] [debug]   frame 234
+[2022-11-24 14:43:08.210293] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\274.jpg
+[2022-11-24 14:43:08.229306] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\274.jpg (encoded in sRGB colorspace).
+[234/270] (234/270)
+[2022-11-24 14:43:08.272277] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.278333] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.278333] [0x00004578] [debug]   frame 235
+[2022-11-24 14:43:08.278333] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\275.jpg
+[2022-11-24 14:43:08.298776] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\275.jpg (encoded in sRGB colorspace).
+[235/270] (235/270)
+[2022-11-24 14:43:08.340911] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.340911] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.340911] [0x00004578] [debug]   frame 236
+[2022-11-24 14:43:08.340911] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\276.jpg
+[2022-11-24 14:43:08.361301] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\276.jpg (encoded in sRGB colorspace).
+[236/270] (236/270)
+[2022-11-24 14:43:08.405991] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:08.405991] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.405991] [0x00004578] [debug]   frame 237
+[2022-11-24 14:43:08.405991] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\277.jpg
+[2022-11-24 14:43:08.423943] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\277.jpg (encoded in sRGB colorspace).
+[237/270] (237/270)
+[2022-11-24 14:43:08.466829] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.466829] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:08.466829] [0x00004578] [debug]   frame 238
+[2022-11-24 14:43:08.466829] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\278.jpg
+[2022-11-24 14:43:08.493233] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\278.jpg (encoded in sRGB colorspace).
+[238/270] (238/270)
+[2022-11-24 14:43:08.528875] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.535110] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.535110] [0x00004578] [debug]   frame 239
+[2022-11-24 14:43:08.535110] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\279.jpg
+[2022-11-24 14:43:08.555800] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\279.jpg (encoded in sRGB colorspace).
+[239/270] (239/270)
+[2022-11-24 14:43:08.598138] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.598138] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:08.598138] [0x00004578] [debug]   frame 240
+[2022-11-24 14:43:08.598138] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\280.jpg
+[2022-11-24 14:43:08.618275] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\280.jpg (encoded in sRGB colorspace).
+[240/270] (240/270)
+[2022-11-24 14:43:08.660123] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:08.660123] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:08.660123] [0x00004578] [debug]   frame 241
+[2022-11-24 14:43:08.660123] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\281.jpg
+[2022-11-24 14:43:08.683922] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\281.jpg (encoded in sRGB colorspace).
+[241/270] (241/270)
+[2022-11-24 14:43:08.723839] [0x00004578] [debug]   Find chessboard corners' duration: 0.023
+[2022-11-24 14:43:08.723839] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:08.723839] [0x00004578] [debug]   frame 242
+[2022-11-24 14:43:08.723839] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\282.jpg
+[2022-11-24 14:43:08.743356] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\282.jpg (encoded in sRGB colorspace).
+[242/270] (242/270)
+[2022-11-24 14:43:08.854304] [0x00004578] [debug]   Find chessboard corners' duration: 0.086
+[2022-11-24 14:43:08.854304] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:08.854304] [0x00004578] [debug]   frame 243
+[2022-11-24 14:43:08.854304] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\283.jpg
+[2022-11-24 14:43:08.875415] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\283.jpg (encoded in sRGB colorspace).
+[243/270] (243/270)
+[2022-11-24 14:43:09.023751] [0x00004578] [debug]   Find chessboard corners' duration: 0.126
+[2022-11-24 14:43:09.023751] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:09.023751] [0x00004578] [debug]   frame 244
+[2022-11-24 14:43:09.024753] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\284.jpg
+[2022-11-24 14:43:09.048969] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\284.jpg (encoded in sRGB colorspace).
+[244/270] (244/270)
+[2022-11-24 14:43:09.152549] [0x00004578] [debug]   Find chessboard corners' duration: 0.085
+[2022-11-24 14:43:09.152549] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:09.152549] [0x00004578] [debug]   frame 245
+[2022-11-24 14:43:09.152549] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\285.jpg
+[2022-11-24 14:43:09.173922] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\285.jpg (encoded in sRGB colorspace).
+[245/270] (245/270)
+[2022-11-24 14:43:09.215960] [0x00004578] [debug]   Find chessboard corners' duration: 0.021
+[2022-11-24 14:43:09.215960] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:09.215960] [0x00004578] [debug]   frame 246
+[2022-11-24 14:43:09.215960] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\286.jpg
+[2022-11-24 14:43:09.236223] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\286.jpg (encoded in sRGB colorspace).
+[246/270] (246/270)
+[2022-11-24 14:43:09.278920] [0x00004578] [debug]   Find chessboard corners' duration: 0.024
+[2022-11-24 14:43:09.278920] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:09.278920] [0x00004578] [debug]   frame 247
+[2022-11-24 14:43:09.278920] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\287.jpg
+[2022-11-24 14:43:09.298817] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\287.jpg (encoded in sRGB colorspace).
+[247/270] (247/270)
+[2022-11-24 14:43:09.403194] [0x00004578] [debug]   Find chessboard corners' duration: 0.086
+[2022-11-24 14:43:09.409973] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:09.409973] [0x00004578] [debug]   frame 248
+[2022-11-24 14:43:09.409973] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\288.jpg
+[2022-11-24 14:43:09.430662] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\288.jpg (encoded in sRGB colorspace).
+[248/270] (248/270)
+[2022-11-24 14:43:09.473278] [0x00004578] [debug]   Find chessboard corners' duration: 0.022
+[2022-11-24 14:43:09.473278] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:09.473278] [0x00004578] [debug]   frame 249
+[2022-11-24 14:43:09.473278] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\289.jpg
+[2022-11-24 14:43:09.493155] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\289.jpg (encoded in sRGB colorspace).
+[249/270] (249/270)
+[2022-11-24 14:43:09.603444] [0x00004578] [debug]   Find chessboard corners' duration: 0.084
+[2022-11-24 14:43:09.603444] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:09.603444] [0x00004578] [debug]   frame 250
+[2022-11-24 14:43:09.603444] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\290.jpg
+[2022-11-24 14:43:09.624353] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\290.jpg (encoded in sRGB colorspace).
+[250/270] (250/270)
+[2022-11-24 14:43:09.758163] [0x00004578] [debug]   Find chessboard corners' duration: 0.103
+[2022-11-24 14:43:09.758163] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:09.758163] [0x00004578] [debug]   frame 251
+[2022-11-24 14:43:09.758163] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\291.jpg
+[2022-11-24 14:43:09.778535] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\291.jpg (encoded in sRGB colorspace).
+[251/270] (251/270)
+[2022-11-24 14:43:09.889754] [0x00004578] [debug]   Find chessboard corners' duration: 0.085
+[2022-11-24 14:43:09.889754] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:09.889754] [0x00004578] [debug]   frame 252
+[2022-11-24 14:43:09.889754] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\292.jpg
+[2022-11-24 14:43:09.910341] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\292.jpg (encoded in sRGB colorspace).
+[252/270] (252/270)
+[2022-11-24 14:43:10.014814] [0x00004578] [debug]   Find chessboard corners' duration: 0.084
+[2022-11-24 14:43:10.014814] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:10.014814] [0x00004578] [debug]   frame 253
+[2022-11-24 14:43:10.014814] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\293.jpg
+[2022-11-24 14:43:10.042279] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\293.jpg (encoded in sRGB colorspace).
+[253/270] (253/270)
+[2022-11-24 14:43:10.157016] [0x00004578] [debug]   Find chessboard corners' duration: 0.092
+[2022-11-24 14:43:10.157016] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:10.157016] [0x00004578] [debug]   frame 254
+[2022-11-24 14:43:10.157016] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\294.jpg
+[2022-11-24 14:43:10.182022] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\294.jpg (encoded in sRGB colorspace).
+[254/270] (254/270)
+[2022-11-24 14:43:10.332332] [0x00004578] [debug]   Find chessboard corners' duration: 0.125
+[2022-11-24 14:43:10.332332] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:10.332332] [0x00004578] [debug]   frame 255
+[2022-11-24 14:43:10.333324] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\295.jpg
+[2022-11-24 14:43:10.355350] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\295.jpg (encoded in sRGB colorspace).
+[255/270] (255/270)
+[2022-11-24 14:43:10.480021] [0x00004578] [debug]   Find chessboard corners' duration: 0.106
+[2022-11-24 14:43:10.480021] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:10.480021] [0x00004578] [debug]   frame 256
+[2022-11-24 14:43:10.480021] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\296.jpg
+[2022-11-24 14:43:10.500413] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\296.jpg (encoded in sRGB colorspace).
+[256/270] (256/270)
+[2022-11-24 14:43:10.629074] [0x00004578] [debug]   Find chessboard corners' duration: 0.099
+[2022-11-24 14:43:10.630127] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:10.630127] [0x00004578] [debug]   frame 257
+[2022-11-24 14:43:10.631061] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\297.jpg
+[2022-11-24 14:43:10.654112] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\297.jpg (encoded in sRGB colorspace).
+[257/270] (257/270)
+[2022-11-24 14:43:10.785042] [0x00004578] [debug]   Find chessboard corners' duration: 0.108
+[2022-11-24 14:43:10.785042] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:10.785042] [0x00004578] [debug]   frame 258
+[2022-11-24 14:43:10.785042] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\298.jpg
+[2022-11-24 14:43:10.806099] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\298.jpg (encoded in sRGB colorspace).
+[258/270] (258/270)
+[2022-11-24 14:43:10.982119] [0x00004578] [debug]   Find chessboard corners' duration: 0.152
+[2022-11-24 14:43:10.982119] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:10.982119] [0x00004578] [debug]   frame 259
+[2022-11-24 14:43:10.982119] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\299.jpg
+[2022-11-24 14:43:11.007109] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\299.jpg (encoded in sRGB colorspace).
+[259/270] (259/270)
+[2022-11-24 14:43:11.256114] [0x00004578] [debug]   Find chessboard corners' duration: 0.219
+[2022-11-24 14:43:11.257118] [0x00004578] [debug]   Refine chessboard corners' duration: 0.002
+[2022-11-24 14:43:11.257118] [0x00004578] [debug]   frame 260
+[2022-11-24 14:43:11.258132] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\300.jpg
+[2022-11-24 14:43:11.316111] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\300.jpg (encoded in sRGB colorspace).
+[260/270] (260/270)
+[2022-11-24 14:43:11.583112] [0x00004578] [debug]   Find chessboard corners' duration: 0.221
+[2022-11-24 14:43:11.584116] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:11.585113] [0x00004578] [debug]   frame 261
+[2022-11-24 14:43:11.585113] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\301.jpg
+[2022-11-24 14:43:11.618111] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\301.jpg (encoded in sRGB colorspace).
+[261/270] (261/270)
+[2022-11-24 14:43:11.888114] [0x00004578] [debug]   Find chessboard corners' duration: 0.242
+[2022-11-24 14:43:11.891117] [0x00004578] [debug]   Refine chessboard corners' duration: 0.002
+[2022-11-24 14:43:11.891117] [0x00004578] [debug]   frame 262
+[2022-11-24 14:43:11.891117] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\302.jpg
+[2022-11-24 14:43:11.949125] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\302.jpg (encoded in sRGB colorspace).
+[262/270] (262/270)
+[2022-11-24 14:43:12.177109] [0x00004578] [debug]   Find chessboard corners' duration: 0.18
+[2022-11-24 14:43:12.179118] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:12.179118] [0x00004578] [debug]   frame 263
+[2022-11-24 14:43:12.179118] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\303.jpg
+[2022-11-24 14:43:12.217109] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\303.jpg (encoded in sRGB colorspace).
+[263/270] (263/270)
+[2022-11-24 14:43:12.355107] [0x00004578] [debug]   Find chessboard corners' duration: 0.112
+[2022-11-24 14:43:12.356106] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:12.356106] [0x00004578] [debug]   frame 264
+[2022-11-24 14:43:12.356106] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\304.jpg
+[2022-11-24 14:43:12.382109] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\304.jpg (encoded in sRGB colorspace).
+[264/270] (264/270)
+[2022-11-24 14:43:12.540109] [0x00004578] [debug]   Find chessboard corners' duration: 0.116
+[2022-11-24 14:43:12.541123] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:12.542110] [0x00004578] [debug]   frame 265
+[2022-11-24 14:43:12.542110] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\305.jpg
+[2022-11-24 14:43:12.564115] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\305.jpg (encoded in sRGB colorspace).
+[265/270] (265/270)
+[2022-11-24 14:43:12.698109] [0x00004578] [debug]   Find chessboard corners' duration: 0.115
+[2022-11-24 14:43:12.699109] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:12.699109] [0x00004578] [debug]   frame 266
+[2022-11-24 14:43:12.699109] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\306.jpg
+[2022-11-24 14:43:12.721115] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\306.jpg (encoded in sRGB colorspace).
+[266/270] (266/270)
+[2022-11-24 14:43:12.865109] [0x00004578] [debug]   Find chessboard corners' duration: 0.12
+[2022-11-24 14:43:12.865109] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:12.865109] [0x00004578] [debug]   frame 267
+[2022-11-24 14:43:12.865109] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\307.jpg
+[2022-11-24 14:43:12.886109] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\307.jpg (encoded in sRGB colorspace).
+[267/270] (267/270)
+[2022-11-24 14:43:13.005106] [0x00004578] [debug]   Find chessboard corners' duration: 0.098
+[2022-11-24 14:43:13.005106] [0x00004578] [debug]   Refine chessboard corners' duration: 0
+[2022-11-24 14:43:13.005106] [0x00004578] [debug]   frame 268
+[2022-11-24 14:43:13.006108] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\308.jpg
+[2022-11-24 14:43:13.028105] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\308.jpg (encoded in sRGB colorspace).
+[268/270] (268/270)
+[2022-11-24 14:43:13.146107] [0x00004578] [debug]   Find chessboard corners' duration: 0.097
+[2022-11-24 14:43:13.146107] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:13.146107] [0x00004578] [debug]   frame 269
+[2022-11-24 14:43:13.146107] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\309.jpg
+[2022-11-24 14:43:13.169125] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\309.jpg (encoded in sRGB colorspace).
+[269/270] (269/270)
+[2022-11-24 14:43:13.283107] [0x00004578] [debug]   Find chessboard corners' duration: 0.095
+[2022-11-24 14:43:13.283107] [0x00004578] [debug]   Refine chessboard corners' duration: 0.001
+[2022-11-24 14:43:13.283107] [0x00004578] [warning] The current frame is out of the range.
+find points duration: 24s 339.000000ms
+Grid detected in 270 images on 270 input images.
+[2022-11-24 14:43:13.296106] [0x00004578] [debug]   Calibration iteration 0 with 50 frames.
+[2022-11-24 14:43:27.657520] [0x00004578] [debug]   	calibrateCamera duration: 14s 361.000000ms
+[2022-11-24 14:43:27.657520] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.569081
+[2022-11-24 14:43:27.657520] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:27.657520] [0x00004578] [debug]   	error min: 0.253241, max: 112.736
+[2022-11-24 14:43:27.657520] [0x00004578] [debug]   Calibration iteration 1 with 49 frames.
+[2022-11-24 14:43:39.450230] [0x00004578] [debug]   	calibrateCamera duration: 11s 807.000000ms
+[2022-11-24 14:43:39.465851] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.565054
+[2022-11-24 14:43:39.465851] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:39.465851] [0x00004578] [debug]   	error min: 0.252977, max: 21.8242
+[2022-11-24 14:43:39.465851] [0x00004578] [debug]   Calibration iteration 2 with 45 frames.
+[2022-11-24 14:43:51.445493] [0x00004578] [debug]   	calibrateCamera duration: 11s 984.000000ms
+[2022-11-24 14:43:51.445493] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.554165
+[2022-11-24 14:43:51.445493] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:51.445493] [0x00004578] [debug]   	error min: 0.252411, max: 16.7554
+[2022-11-24 14:43:51.445493] [0x00004578] [debug]   Calibration iteration 3 with 35 frames.
+[2022-11-24 14:43:56.000821] [0x00004578] [debug]   	calibrateCamera duration: 4s 553.000000ms
+[2022-11-24 14:43:56.000821] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.552207
+[2022-11-24 14:43:56.000821] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:56.000821] [0x00004578] [debug]   	error min: 0.252673, max: 12.2714
+[2022-11-24 14:43:56.000821] [0x00004578] [debug]   Calibration iteration 4 with 26 frames.
+[2022-11-24 14:43:57.813306] [0x00004578] [debug]   	calibrateCamera duration: 1s 810.000000ms
+[2022-11-24 14:43:57.813306] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.549364
+[2022-11-24 14:43:57.813306] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:57.813306] [0x00004578] [debug]   	error min: 0.252263, max: 9.63139
+[2022-11-24 14:43:57.813306] [0x00004578] [debug]   Calibration iteration 5 with 19 frames.
+[2022-11-24 14:43:58.487491] [0x00004578] [debug]   	calibrateCamera duration: 676.000000ms
+[2022-11-24 14:43:58.487491] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.553243
+[2022-11-24 14:43:58.487491] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:58.487491] [0x00004578] [debug]   	error min: 0.252655, max: 6.86635
+[2022-11-24 14:43:58.487491] [0x00004578] [debug]   Calibration iteration 6 with 14 frames.
+[2022-11-24 14:43:58.793008] [0x00004578] [debug]   	calibrateCamera duration: 300.000000ms
+[2022-11-24 14:43:58.793008] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.536857
+[2022-11-24 14:43:58.793008] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:58.793008] [0x00004578] [debug]   	error min: 0.252162, max: 5.04081
+[2022-11-24 14:43:58.793008] [0x00004578] [debug]   Calibration iteration 7 with 10 frames.
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   	calibrateCamera duration: 127.000000ms
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   	RMS error reported by calibrateCamera: 0.527136
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   	computeReprojectionErrors duration: 0ms
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   	error min: 0.251947, max: 4.02908
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Not enough filtered input images (filtered: 9, rejected:1) to continue the refinement.
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Calibration done with 7 iterations.
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Average reprojection error is 0.527135
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Calibration succeeded
+Calibration duration: 45s 625.000000ms
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Coefficients matrix :
+ [0.2667429667893936;
+ -2.057691862927329;
+ 0;
+ 0;
+ 5.459429779540071]
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   Exporting images ...
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   frame 100
+[2022-11-24 14:43:58.921146] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\101.jpg
+[2022-11-24 14:43:58.945784] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\101.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:43:59.133546] [0x00004578] [debug]   frame 233
+[2022-11-24 14:43:59.133546] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\273.jpg
+[2022-11-24 14:43:59.161682] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\273.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:43:59.348158] [0x00004578] [debug]   frame 158
+[2022-11-24 14:43:59.348158] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\174.jpg
+[2022-11-24 14:43:59.369303] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\174.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:43:59.557357] [0x00004578] [debug]   frame 192
+[2022-11-24 14:43:59.557357] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\232.jpg
+[2022-11-24 14:43:59.577478] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\232.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:43:59.758401] [0x00004578] [debug]   frame 251
+[2022-11-24 14:43:59.758401] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\291.jpg
+[2022-11-24 14:43:59.779531] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\291.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:43:59.952408] [0x00004578] [debug]   frame 181
+[2022-11-24 14:43:59.952408] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\206.jpg
+[2022-11-24 14:43:59.980438] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\206.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:44:00.160701] [0x00004578] [debug]   frame 101
+[2022-11-24 14:44:00.160701] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\102.jpg
+[2022-11-24 14:44:00.189824] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\102.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:44:00.372803] [0x00004578] [debug]   frame 252
+[2022-11-24 14:44:00.372803] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\292.jpg
+[2022-11-24 14:44:00.397034] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\292.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:44:00.577472] [0x00004578] [debug]   frame 253
+[2022-11-24 14:44:00.577472] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\293.jpg
+[2022-11-24 14:44:00.605403] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\293.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:44:00.772410] [0x00004578] [debug]   frame 250
+[2022-11-24 14:44:00.772410] [0x00004578] [debug]   c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\290.jpg
+[2022-11-24 14:44:00.800515] [0x00004578] [trace]   Read image c:/code/COMP_6411B_project/Camera/iPhone13/calibration-short\290.jpg (encoded in sRGB colorspace).
+[2022-11-24 14:44:00.965945] [0x00004578] [debug]   ... finished
+[2022-11-24 14:44:00.965945] [0x00004578] [debug]   Export debug of selected frames, duration: 2.048
+Total duration: 1m 12s 27.000000ms
