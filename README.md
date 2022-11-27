@@ -7,6 +7,8 @@ Our worked version works the same way as the original described below. Furthermo
 
 `python evaluate_pose.py --data_path /content/drive/MyDrive/train/`
 
+`python test_simple.py --image_path /content/drive/MyDrive/train/ --model_name mono_1024x320 --ext jpg`
+
 
 # Monodepth2
 
