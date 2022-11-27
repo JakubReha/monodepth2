@@ -1,3 +1,8 @@
+# COMP6411B
+
+Our worked version works the same way as the original described below. Furthermore, we added a script to extract camera poses `evaluate_pose.py`. The model trained on our Red Bird video can be found [here](https://drive.google.com/drive/folders/14-22Qav_yotIwUV7-0OqA-QCJpQIFUzT?usp=share_link).
+
+
 # Monodepth2
 
 This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
